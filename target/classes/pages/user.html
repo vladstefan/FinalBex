@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<#import "/spring.ftl" as spring />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="<@spring.url '/resources/css/plugins/bootstrap.css'/>">
+    <link rel="stylesheet" href="<@spring.url '/resources/css/plugins/bootstrap-grid.css'/>">
+    <link rel="stylesheet" href="<@spring.url '/resources/css/plugins/bootstrap-reboot.css'/>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez|Montserrat|Roboto" rel="stylesheet">
+
+    <script type="text/javascript" src="<@spring.url '/resources/js/plugins/jquery-3.3.1.js'/>"></script>
+    <script type="text/javascript" src="<@spring.url '/resources/js/plugins/bootstrap.js'/>"></script>
+
+
+    <link rel="stylesheet" href="<@spring.url '/resources/css/style.css'/>">
+
+
+    <script type="text/javascript" src="<@spring.url '/resources/js/application/application.js'/>"></script>
+    <title>Bex Library</title>
+</head>
+
+<body id="body">
+<div class="main__body">
+    <!-- login and  search -->
+    <div class="loginSearch__container">
+        <!-- Logo -->
+        <div>
+            <img class="deustche__logo" src="resources/img/deutscheLogo.png"/>
+        </div>
+        <!-- search -->
+        <input class="search" type="text" name="search" placeholder="Search..">
+
+
+        <#if isLoggedIn == false>
+        <!-- user Container -->
+        <div class="user__img" data-toggle="collapse" href="#collapse1"></div>
+        <div id="collapse1" class="user-collapse collapse">
+            <form action="login.html" method="POST">
+                <input id="account-username" class="account user" type="text" name="username" placeholder="user">
+                <input id="account-password" class="account password" type="password" name="password"
+                       placeholder="password">
+                <button class="account login__button btn btn-outline-success">Login</button>
+            </form>
+        </div>
+        <#else>
+            <a href="logout.html" class="btn btn-outline-danger">Logout</a>
+    </#if>
+</div>
+<!-- Introduction picture -->
+<img class="main__img" src="resources/img/front_img.jpg" alt="">
+
+<!-- Books region -->
+<div class="book__container">
+
+    <div class="scroll__button left__button">
+        <button>BUTTON</button>
+    </div>
+    <div class="book__section">
+        <h2>Action:</h2>
+        <div class="book__selector">
+            <div id="wrapper">
+                <div class="module-section clearfix">
+                    <ul id="content">
+                        <li class="card">
+                            <div class="inside-top">
+                                <div class="book__img">
+                                    <img src="resources/img/book.jpg">
+                                </div>
+                                <div class="book__summary">
+                                    <h2 class="book__rating">4.19</h2>
+                                    <p class="book__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit. Fugit, impedit atque.
+                                        Laborum aliquid ea iusto quasi maxime facilis saepe molestiae nulla, tempora
+                                        laboriosam quis deserunt sed, veniam eveniet, facere quas!</p>
+
+                                    <div class="book__button">
+                                        <button src="resources/img/bookimg.jpg" type="button">Book</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        /
+                    </ul>
+                </div>
+                <!--end of module-section-->
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll__button right__button">
+        <button>BUTTON</button>
+    </div>
+    <div class="book__section Drama">
+        <h2>Drama:</h2>
+        <div class="book__selector">
+
+        </div>
+    </div>
+    <div class="book__section">
+        <h2>Read books:</h2>
+        <div class="book__selector">
+
+        </div>
+    </div>
+    <div class="book__section">
+        <h2>Favorites:</h2>
+        <div class="book__selector">
+
+        </div>
+    </div>
+</div>
+<div class="Favorites">
+
+</div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+{
+    "booklist": [
+        {
+            "id": 2,
+            "title": "Learning Spark",
+            "rating": 3.5,
+            "givenRatings": 1,
+            "noCopies": 1,
+            "noAvailableCopies": 1,
+            "author": [
+                {
+                    "id": 2,
+                    "authorName": "Holden Karau"
+                },
+                {
+                    "id": 3,
+                    "authorName": "Andy Konwinski"
+                }
+            ],
+            "users": [],
+            "imgPath": null,
+            "bookLoan": []
+        },
+        {
+            "id": 4,
+            "title": "Java de la 0 la expert",
+            "rating": 2.5,
+            "givenRatings": 1,
+            "noCopies": 1,
+            "noAvailableCopies": 1,
+            "author": [
+                {
+                    "id": 6,
+                    "authorName": "Stefan Tanasa"
+                },
+                {
+                    "id": 7,
+                    "authorName": "Stefan Andrei"
+                }
+            ],
+            "users": [],
+            "imgPath": null,
+            "bookLoan": []
+        },
+        {
+            "id": 6,
+            "title": "Expert Oracle Database Architecture",
+            "rating": 5,
+            "givenRatings": 1,
+            "noCopies": 1,
+            "noAvailableCopies": 1,
+            "author": [
+                {
+                    "id": 9,
+                    "authorName": "Thomas Kyte"
+                },
+                {
+                    "id": 10,
+                    "authorName": "Darl Kuhn"
+                }
+            ],
+            "users": [],
+            "imgPath": null,
+            "bookLoan": []
+        }
+    ]
+}

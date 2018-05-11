@@ -1,0 +1,161 @@
+html{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.picture__section{
+    display: flex;
+    justify-content: space-around;
+}
+  
+  .header {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    display: flex;
+    align-self: flex-start;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+    margin: 150px 0 0  50px;
+    color: papayawhip;
+    font-family: 'Pacifico';
+    font-size: 150px;
+    font-weight: 20;
+    background:rgba(0,0,0,0);
+  }
+
+  .header__description{
+    display: flex;
+    align-self: flex-start;
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+    margin:20px 0 0  50px;
+    color: papayawhip;
+    font-family: 'Pacifico';
+    font-size: 50px;
+  }
+
+.popularBooks__list{
+    margin: 300px 0 0  50px;
+}
+
+.up__section{
+    height:900px;
+    background-image: url('img/fundal.jpg');
+}
+
+.popularBooks__section{
+    width: 1280px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.search {
+    width: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('img/Search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.search:focus {
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    cursor:pointer;
+    visibility:visible;
+    width:500px;
+    height:300px;
+}
+
+.book__title{
+    font-size:30px;
+    color:white;
+}
+
+.main__modal{
+    width: 90vw;
+    height: 90vh; 
+    position: absolute;
+    top: 45vh;
+    left: 45vw;
+    transform: translate(-45vw, -45vh);
+    
+} 
+
+.modal__rent{
+    position: absolute;
+    top: 50%;
+    width: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text__color{
+    color:white;
+}
+
+.book__button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.book__titleModal{
+    color: rgb(151, 2, 27);
+    font-weight: bold;
+    
+}
+
+.book__div{
+    display:flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    margin: 50px 50px 50px 50px;
+}
+
+.fade{
+    width:100vw;
+    height: 100vh;
+}
+
+.modal-dialog, .modal-lg {
+    width: 95vw;
+    height: 95vh;
+}
+
+.modal-content {
+    
+    background: rgba(53, 27, 27, 0.8);
+}
+
+.app__searchAndLogin{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.app__login{
+    display: flex;
+    justify-content: flex-end;
+}

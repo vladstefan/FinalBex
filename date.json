@@ -1,0 +1,638 @@
+[
+    {
+        "id": 1,
+        "title": "An introduction to banking",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 1,
+                "authorName": "Moorad Choudhry"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 2,
+        "title": "Learning Spark",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 2,
+                "authorName": "Holden Karau"
+            },
+            {
+                "id": 3,
+                "authorName": "Andy Konwinski"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 3,
+        "title": "The Phoenix Project",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 4,
+                "authorName": "Gene Kim"
+            },
+            {
+                "id": 5,
+                "authorName": "Kevin Behr"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 4,
+        "title": "Java de la 0 la expert",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 6,
+                "authorName": "Stefan Tanasa"
+            },
+            {
+                "id": 7,
+                "authorName": "Stefan Andrei"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 5,
+        "title": "The data model resoure book",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 2,
+            "categoryName": "Databases"
+        },
+        "author": [
+            {
+                "id": 8,
+                "authorName": "Len Silverston"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 6,
+        "title": "Expert Oracle Database Architecture",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 2,
+            "categoryName": "Databases"
+        },
+        "author": [
+            {
+                "id": 9,
+                "authorName": "Thomas Kyte"
+            },
+            {
+                "id": 10,
+                "authorName": "Darl Kuhn"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 7,
+        "title": "Business Analysis",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 11,
+                "authorName": "Project Management Institute Pennsylvanya"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 8,
+        "title": "Liquidity risk measurement and management",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 12,
+                "authorName": "Leonard Matz"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 9,
+        "title": "Financial times guides- Banking",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 13,
+                "authorName": "Glen Arnold"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 10,
+        "title": "Head First Object-Oriented Analysis & Design",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 14,
+                "authorName": "Brett McLaughlin"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 11,
+        "title": "Big data smack",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 15,
+                "authorName": "Raul Estrada"
+            },
+            {
+                "id": 16,
+                "authorName": "Isaac Ruiz"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 12,
+        "title": "Advanced credit risk analysis and management",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 17,
+                "authorName": "Ciby Joseph"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 13,
+        "title": "The Trade Lifecycle",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 18,
+                "authorName": "Robert P. Baker"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 14,
+        "title": "Coders At Work",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 19,
+                "authorName": "Peter Seibel"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 15,
+        "title": "Managing the Test People",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 20,
+                "authorName": "Judy McKay"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 16,
+        "title": "Central Counterparties",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 21,
+                "authorName": "Jon Gregory"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 17,
+        "title": "Elasticsearch 5.x Cookbook",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 22,
+                "authorName": "Alberto Paro"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 18,
+        "title": "The Essentials Risk Management",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 3,
+            "categoryName": "Economics"
+        },
+        "author": [
+            {
+                "id": 23,
+                "authorName": "Michel Crouhy"
+            },
+            {
+                "id": 24,
+                "authorName": "Dan Galai"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 19,
+        "title": "Java Performance The Definitive Guide",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 25,
+                "authorName": "Scott Oaks"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 20,
+        "title": "Building Microservices",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 26,
+                "authorName": "Sam Newman"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 21,
+        "title": "Using Docker",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 27,
+                "authorName": "Adrian Mouat"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 22,
+        "title": "Patterns Of Enterprise Application Architecture",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 28,
+                "authorName": "Martin Fowler"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 23,
+        "title": "Mastering Elasticsearch 5.x",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 29,
+                "authorName": "Bharvi Dixit"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 24,
+        "title": "Systematic Software Testing",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 30,
+                "authorName": "Rick D. Craig"
+            },
+            {
+                "id": 31,
+                "authorName": "Stefan Jaskiel"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 25,
+        "title": "Go In Action",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 1,
+            "categoryName": "Programming"
+        },
+        "author": [
+            {
+                "id": 32,
+                "authorName": "William Kennedy"
+            },
+            {
+                "id": 33,
+                "authorName": "Brian Ketelsen"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 26,
+        "title": "The Five Dysfunctions of a team",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 34,
+                "authorName": "Patryck Lencioni"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 27,
+        "title": "Innovation Games",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 35,
+                "authorName": "Luke Hohmann"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 28,
+        "title": "It's not luck",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 36,
+                "authorName": "Eliyahu Goldratt"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 29,
+        "title": "The Goal",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 36,
+                "authorName": "Eliyahu Goldratt"
+            },
+            {
+                "id": 37,
+                "authorName": "Jeff Cox"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    },
+    {
+        "id": 30,
+        "title": "Collective Intelligence In Action",
+        "rating": 0.0,
+        "givenRatings": 0,
+        "noCopies": 1,
+        "noAvailableCopies": 1,
+        "category": {
+            "idCategory": 4,
+            "categoryName": "Soft skills"
+        },
+        "author": [
+            {
+                "id": 38,
+                "authorName": "Satnam Alag"
+            }
+        ],
+        "users": [],
+        "bookLoan": []
+    }
+]

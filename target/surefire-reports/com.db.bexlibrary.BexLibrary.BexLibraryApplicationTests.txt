@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.db.bexlibrary.BexLibrary.BexLibraryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.264 s - in com.db.bexlibrary.BexLibrary.BexLibraryApplicationTests
