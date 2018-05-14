@@ -5,7 +5,7 @@ class Booklist extends Component{
 
 
         render() {
-            const booklist = this.props.booklist.map(post => <Book title={post.title} rating={post.rating}/>);
+            const booklist = this.props.booklist.map(post => <Book title={post.title} rating={post.rating} id={post.id}/>);
             return (
                 <div className="book__div">
                     {booklist}

@@ -3,6 +3,10 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.book__img{
+    width:200px;
+    height: 300px;
+}
 
 @keyframes slideInFromLeft {
     0% {
@@ -17,8 +21,8 @@ html{
     display: flex;
     justify-content: space-around;
 }
-  
-  .header {  
+
+  .header {
     /* This section calls the slideInFromLeft animation we defined above */
     display: flex;
     align-self: flex-start;
@@ -65,7 +69,7 @@ html{
     font-size: 16px;
     background-color: white;
     background-image: url('img/Search.png');
-    background-position: 10px 10px; 
+    background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -94,18 +98,18 @@ html{
 
 .main__modal{
     width: 90vw;
-    height: 90vh; 
+    height: 90vh;
     position: absolute;
     top: 45vh;
     left: 45vw;
     transform: translate(-45vw, -45vh);
-    
-} 
+
+}
 
 .modal__rent{
     position: absolute;
     top: 50%;
-    width: 50%; 
+    width: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -124,7 +128,7 @@ html{
 .book__titleModal{
     color: rgb(151, 2, 27);
     font-weight: bold;
-    
+
 }
 
 .book__div{
@@ -145,7 +149,7 @@ html{
 }
 
 .modal-content {
-    
+
     background: rgba(53, 27, 27, 0.8);
 }
 

@@ -24,7 +24,7 @@ class PopularBooks extends Component {
 
 
     render() {
-        const booksections = this.props.booklist.map(post => <Carousel.Item> <Book title={post.title} rating={post.rating}/> </Carousel.Item>);
+        const booksections = this.props.booklist.map(post => <Carousel.Item> <Book title={post.title} rating={post.rating} id={post.id}/> </Carousel.Item>);
         return (
             <div style={styles.root}>
                <Carousel className="carousel__pupularBooks">
