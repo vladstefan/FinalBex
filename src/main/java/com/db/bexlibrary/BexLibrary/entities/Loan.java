@@ -9,11 +9,7 @@ import java.sql.Timestamp;
 
 @Entity
 @Data
-public class Loan {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id") private int id;
+public class Loan extends BaseEntity {
 
     @NotNull
     private Timestamp borrowDate;

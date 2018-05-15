@@ -13,11 +13,7 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
-public class Book {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+public class Book extends BaseEntity {
 
     @NotNull
     private String title;
