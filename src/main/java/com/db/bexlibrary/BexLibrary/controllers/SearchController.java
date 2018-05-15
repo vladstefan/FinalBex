@@ -21,7 +21,6 @@ public class SearchController {
     @GetMapping(value="/search/{title}")
     private List<Book> searchMethod(@PathVariable String title){
         List<Book> results=new ArrayList<>();
-        System.out.println(title);
 
         results.addAll(bookService.findBooksByAuthorName(title));
         results.addAll(bookRepo.findBooksByTitleContaining(title));
