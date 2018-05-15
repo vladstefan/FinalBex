@@ -6,7 +6,13 @@ class Login extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { open: false };
+        this.state = {
+          open: false
+          userDetails :{
+            name:"",
+            password:""
+          }
+        };
     }
 
     handleToggle = () => this.setState({ open: !this.state.open });
