@@ -11,29 +11,29 @@ import org.springframework.stereotype.Component;
 public class MailSender {
 
 
-    Logger logger = LoggerFactory.getLogger(this.getClass());
+  Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    private JavaMailSender javaMailSender;
+  private JavaMailSender javaMailSender;
 
-    @Autowired
-    public MailSender(JavaMailSender javaMailSender) {
-        this.javaMailSender = javaMailSender;
-    }
+  @Autowired
+  public MailSender(JavaMailSender javaMailSender) {
+    this.javaMailSender = javaMailSender;
+  }
 
-    public void sendMail(String from, String to, String subject, String body) {
+  public void sendMail(String from, String to, String subject, String body) {
 
-        SimpleMailMessage mail = new SimpleMailMessage();
+    SimpleMailMessage mail = new SimpleMailMessage();
 
-        mail.setFrom(from);
-        mail.setTo(to);
-        mail.setSubject(subject);
-        mail.setText(body);
+    mail.setFrom(from);
+    mail.setTo(to);
+    mail.setSubject(subject);
+    mail.setText(body);
 
-        logger.info("Sending...");
+    logger.info("Sending...");
 
-        javaMailSender.send(mail);
+    javaMailSender.send(mail);
 
-        logger.info("Done!");
-    }
+    logger.info("Done!");
+  }
 
 }

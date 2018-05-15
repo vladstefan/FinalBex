@@ -5,6 +5,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Controller
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
-public class LoginController{
+public class LoginController {
 
 }

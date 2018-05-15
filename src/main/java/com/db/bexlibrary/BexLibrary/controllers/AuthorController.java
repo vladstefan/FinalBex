@@ -12,12 +12,12 @@ import java.util.List;
 @RestController
 public class AuthorController {
 
-    @Autowired
-    AuthorRepo authorRepo;
+  @Autowired
+  AuthorRepo authorRepo;
 
-    @GetMapping(value = "/authors")
-    public List<Author> generate(){
-        return authorRepo.findAll();
-    }
+  @GetMapping(value = "/authors")
+  public List<Author> generate() {
+    return authorRepo.findAll();
+  }
 
 }
