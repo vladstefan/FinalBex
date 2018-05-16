@@ -8,11 +8,7 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 @Data
-public class KeyWords {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+public class KeyWords extends BaseEntity {
 
     @NotNull
     private String word;

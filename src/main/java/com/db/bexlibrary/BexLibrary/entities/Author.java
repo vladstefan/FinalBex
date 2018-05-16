@@ -9,11 +9,8 @@ import java.util.List;
 
 @Entity
 @Data
-public class Author {
+public class Author extends BaseEntity   {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
 
     @NotNull
     private String authorName;

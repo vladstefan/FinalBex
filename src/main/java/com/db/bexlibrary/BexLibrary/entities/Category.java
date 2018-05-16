@@ -8,16 +8,11 @@ import java.util.List;
 
 @Entity
 @Data
-public class Category {
+public class Category extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long idCategory;
 
     @NotNull
     private String categoryName;
-
-    //@JsonIgnore
     @OneToMany(mappedBy = "category")
     private List<Book> booklist;
 
