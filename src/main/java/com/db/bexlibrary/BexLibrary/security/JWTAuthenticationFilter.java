@@ -27,38 +27,41 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
-    AuthenticationManager authenticationManager;
+  AuthenticationManager authenticationManager;
 
-    public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
-        this.authenticationManager = authenticationManager;
+  public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
+    this.authenticationManager = authenticationManager;
+  }
+
+  @Override
+  public Authentication attemptAuthentication(HttpServletRequest request,
+      HttpServletResponse response) throws AuthenticationException {
+
+    try {
+      AppUser user = new ObjectMapper().readValue(request.getInputStream(), AppUser.class);
+      return authenticationManager.authenticate(
+          new UsernamePasswordAuthenticationToken(user.getName(), user.getPassword()));
+    } catch (IOException e) {
+      throw new RuntimeException(e);
     }
+  }
 
-    @Override
-    public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
-
-        try {
-            AppUser user = new ObjectMapper().readValue(request.getInputStream(), AppUser.class);
-            return authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getName(), user.getPassword()));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    @Override
-    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain,
-                                            Authentication authResult) throws IOException, ServletException {
-        ZonedDateTime expirationTimeUTC = ZonedDateTime.now(ZoneOffset.UTC).plus(EXPIRATION, ChronoUnit.MILLIS);
-        String token = Jwts.builder().setSubject(((User)authResult.getPrincipal()).getUsername())
-                .setExpiration(Date.from(expirationTimeUTC.toInstant()))
-                .signWith(SignatureAlgorithm.HS256,SECRET)
-                .compact();
-        response.addHeader(HEADER_STRING,TOKEN_PREFIX + token);
-        response.addHeader("User",((User) authResult.getPrincipal()).getAuthorities().toString());
+  @Override
+  protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response,
+      FilterChain chain,
+      Authentication authResult) throws IOException, ServletException {
+    ZonedDateTime expirationTimeUTC = ZonedDateTime.now(ZoneOffset.UTC)
+        .plus(EXPIRATION, ChronoUnit.MILLIS);
+    String token = Jwts.builder().setSubject(((User) authResult.getPrincipal()).getUsername())
+        .setExpiration(Date.from(expirationTimeUTC.toInstant()))
+        .signWith(SignatureAlgorithm.HS256, SECRET)
+        .compact();
+    response
+        .addHeader("Set-Cookie", HEADER_STRING + "=" + TOKEN_PREFIX + token + "; Path=/; HttpOnly");
+    response.addHeader("User", ((User) authResult.getPrincipal()).getAuthorities().toString());
 
 
-    }
-
-
+  }
 
 
 }

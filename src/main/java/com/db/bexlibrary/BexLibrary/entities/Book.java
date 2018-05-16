@@ -13,52 +13,61 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
+<<<<<<< HEAD
 public class Book extends BaseEntity {
+=======
+public class Book {
 
-    @NotNull
-    private String title;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private Long id;
+>>>>>>> origin/loginFix
 
-    @Nullable
-    private double rating = 0.0;
+  @NotNull
+  private String title;
 
-    @Nullable
-    private int givenRatings = 0;
+  @Nullable
+  private double rating = 0.0;
 
-    @NotNull
-    private int noCopies;
+  @Nullable
+  private int givenRatings = 0;
 
-    @NotNull
-    private int noAvailableCopies;
+  @NotNull
+  private int noCopies;
 
-    @NotNull
-    @ManyToOne
-    @JsonIgnore
-    @JoinColumn(name = "fk_bookCategory")
-    private Category category;
+  @NotNull
+  private int noAvailableCopies;
 
-    @ManyToMany
-    @JoinTable(name = "Book_Author",joinColumns = {@JoinColumn(name="fk_idBook")}, inverseJoinColumns ={ @JoinColumn(name="fk_idAuthor")})
-    private List<Author> author;
+  @NotNull
+  @ManyToOne
+  @JsonIgnore
+  @JoinColumn(name = "fk_bookCategory")
+  private Category category;
 
-    @JsonIgnore
-    @OneToMany(mappedBy = "book")
-    private List<KeyWords> keyWords;
+  @ManyToMany
+  @JoinTable(name = "Book_Author", joinColumns = {
+      @JoinColumn(name = "fk_idBook")}, inverseJoinColumns = {@JoinColumn(name = "fk_idAuthor")})
+  private List<Author> author;
 
-    @JsonBackReference
-    @OneToMany(mappedBy = "loanBook")
-    private List<Loan>  bookLoan;
+  @JsonIgnore
+  @OneToMany(mappedBy = "book")
+  private List<KeyWords> keyWords;
 
-    @ManyToMany(mappedBy = "books")
-    private List<User> users;
+  @JsonBackReference
+  @OneToMany(mappedBy = "loanBook")
+  private List<Loan> bookLoan;
 
-    @Column(name="img_path")
-    private String imgPath;
+  @ManyToMany(mappedBy = "books")
+  private List<User> users;
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                ", title='" + title + '\'' +
-                '}';
-    }
+  @Column(name = "img_path")
+  private String imgPath;
+
+  @Override
+  public String toString() {
+    return "Book{" +
+        ", title='" + title + '\'' +
+        '}';
+  }
 
 }

@@ -1,37 +1,51 @@
 package com.db.bexlibrary.BexLibrary.entities;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import lombok.Data;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.sql.Timestamp;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotNull;
+import lombok.Data;
 
 @Entity
 @Data
+<<<<<<< HEAD
 public class Loan extends BaseEntity {
+=======
+public class Loan {
 
-    @NotNull
-    private Timestamp borrowDate;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(name = "id")
+  private int id;
+>>>>>>> origin/loginFix
 
-    @NotNull
-    private Timestamp returnDate;
+  @NotNull
+  private Timestamp borrowDate;
 
-    @NotNull
-    private boolean isReturned = false;
+  @NotNull
+  private Timestamp returnDate;
 
-    @JsonManagedReference
-    @ManyToOne
-    @JoinColumn(name = "fk_loanUser")
-    private User loanUser;
+  @NotNull
+  private boolean isReturned = false;
 
-    @JsonManagedReference
-    @ManyToOne
-    @JoinColumn(name = "fk_loanBook")
-    private Book loanBook;
+  @JsonManagedReference
+  @ManyToOne
+  @JoinColumn(name = "fk_loanUser")
+  private User loanUser;
 
-    public boolean isReturned() {
-        return isReturned;
-    }
+  @JsonManagedReference
+  @ManyToOne
+  @JoinColumn(name = "fk_loanBook")
+  private Book loanBook;
+
+  public boolean isReturned() {
+    return isReturned;
+  }
 
 }
