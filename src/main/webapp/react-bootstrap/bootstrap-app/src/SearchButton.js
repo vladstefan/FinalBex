@@ -46,7 +46,8 @@ class SearchButton extends Component {
 
     functionse(value){
         fetch(`http://localhost:8080/search/${value}`, {
-            method: 'get'
+            method: 'get',
+            credentials: 'include'
 
         }).then(response => response.json())
             .then(books => {
