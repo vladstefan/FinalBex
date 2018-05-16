@@ -9,14 +9,13 @@ import java.util.List;
 
 @Entity
 @Data
-public class Author extends BaseEntity   {
+public class Author extends BaseEntity {
 
-<<<<<<< HEAD
 
     @NotNull
     private String authorName;
 
-    @ManyToMany(mappedBy ="author")
+    @ManyToMany(mappedBy = "author")
     @JsonIgnore
     private List<Book> book;
 
@@ -28,26 +27,5 @@ public class Author extends BaseEntity   {
                 ", book=" + book +
                 '}';
     }
-=======
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private int id;
-
-  @NotNull
-  private String authorName;
-
-  @ManyToMany(mappedBy = "author")
-  @JsonIgnore
-  private List<Book> book;
-
-  @Override
-  public String toString() {
-    return "Author{" +
-        "id=" + id +
-        ", authorName='" + authorName + '\'' +
-        ", book=" + book +
-        '}';
-  }
->>>>>>> origin/loginFix
 
 }

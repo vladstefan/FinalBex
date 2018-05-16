@@ -14,16 +14,7 @@ import lombok.Data;
 
 @Entity
 @Data
-<<<<<<< HEAD
 public class Loan extends BaseEntity {
-=======
-public class Loan {
-
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = "id")
-  private int id;
->>>>>>> origin/loginFix
 
   @NotNull
   private Timestamp borrowDate;

@@ -12,15 +12,8 @@ import lombok.Data;
 
 @Entity
 @Data
-<<<<<<< HEAD
-public class KeyWords extends BaseEntity {
-=======
-public class KeyWords {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private int id;
->>>>>>> origin/loginFix
+public class KeyWords extends BaseEntity {
 
   @NotNull
   private String word;
