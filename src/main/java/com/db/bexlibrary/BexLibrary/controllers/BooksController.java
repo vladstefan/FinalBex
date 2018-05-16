@@ -6,6 +6,8 @@ import com.db.bexlibrary.BexLibrary.service.BookService;
 import java.util.List;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,24 +27,27 @@ public class BooksController {
 
 
   @GetMapping(value = "/books")
-  public List<Book> findBooks() {
-    return bookRepo.findAll();
+  public ResponseEntity<?> findBooks() {
+    return new ResponseEntity<List<Book>>(bookRepo.findAll(), HttpStatus.OK);
   }
 
 
   @GetMapping(value = "/booksbyauthor")
-  public Set<Book> findBookByAuthor(@RequestParam(name = "name") String name) {
-    return bookService.findBooksByAuthorName(name);
+  public ResponseEntity<?> findBookByAuthor(@RequestParam(name = "name") String name) {
+    return new ResponseEntity<Set<Book>>(bookService.findBooksByAuthorName(name), HttpStatus.OK);
   }
 
   @GetMapping(value = "/popular")
-  public List<Book> findPopular() {
-    return bookRepo.findBooksByRatingGreaterThanEqualOrderByRatingDesc(3.5).subList(0, 5);
+  public ResponseEntity<?> findPopular() {
+    return new ResponseEntity<List<Book>>(
+        bookRepo.findBooksByRatingGreaterThanEqualOrderByRatingDesc(3.5).subList(0, 5),
+        HttpStatus.OK);
   }
 
   @GetMapping(value = "booksbycategory/{category}")
-  public List<Book> findByCategory(@PathVariable String category) {
-    return bookService.findBooksByCathegory(category);
+  public ResponseEntity<?> findByCategory(@PathVariable String category) {
+    return new ResponseEntity<List<Book>>(bookService.findBooksByCathegory(category),
+        HttpStatus.OK);
   }
 
 

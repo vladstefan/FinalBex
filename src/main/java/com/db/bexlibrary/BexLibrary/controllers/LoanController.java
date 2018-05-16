@@ -9,6 +9,8 @@ import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
 import com.db.bexlibrary.BexLibrary.service.LoanService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -36,13 +38,14 @@ public class LoanController {
 
   @RequestMapping(value = "/loans", method = {RequestMethod.POST, RequestMethod.OPTIONS})
   @ResponseBody
-  public Loan borrowMethod(@RequestBody LoanPOJO input) {
-    return loanService.borrowMethod(input);
+  public ResponseEntity<?> borrowMethod(@RequestBody LoanPOJO input) {
+
+    return new ResponseEntity<Loan>(loanService.borrowMethod(input), HttpStatus.OK);
   }
 
   @GetMapping("/admin")
-  public List<Loan> getAllLoans() {
-    return loanService.getAllLoans();
+  public ResponseEntity<?> getAllLoans() {
+    return new ResponseEntity<List<Loan>>(loanService.getAllLoans(), HttpStatus.OK);
   }
 
 }

@@ -14,7 +14,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableScheduling
 @SpringBootApplication
 @EntityScan(basePackages = "com/db/bexlibrary/BexLibrary/entities")
-@ComponentScan(basePackages = "com.db.bexlibrary.BexLibrary")
 public class BexLibraryApplication {
 
   private static ApplicationContext applicationContext;
