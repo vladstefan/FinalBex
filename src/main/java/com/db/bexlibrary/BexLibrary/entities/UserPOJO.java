@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class UserPOJO {
 
-    private String userEmail;
+  private String userEmail;
 
-    private String password;
+  private String password;
 
 }

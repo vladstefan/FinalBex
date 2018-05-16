@@ -17,14 +17,14 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan(basePackages = "com.db.bexlibrary.BexLibrary")
 public class BexLibraryApplication {
 
-    private static ApplicationContext applicationContext;
+  private static ApplicationContext applicationContext;
 
-    public static void main(String[] args) {
-        applicationContext = SpringApplication.run(BexLibraryApplication.class, args);
-    }
+  public static void main(String[] args) {
+    applicationContext = SpringApplication.run(BexLibraryApplication.class, args);
+  }
 
-    public static <T> T getBean(Class<T> clazz) {
-        return applicationContext.getBean(clazz);
-    }
+  public static <T> T getBean(Class<T> clazz) {
+    return applicationContext.getBean(clazz);
+  }
 
 }

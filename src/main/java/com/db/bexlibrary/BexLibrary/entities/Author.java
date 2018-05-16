@@ -11,24 +11,24 @@ import java.util.List;
 @Data
 public class Author {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private int id;
 
-    @NotNull
-    private String authorName;
+  @NotNull
+  private String authorName;
 
-    @ManyToMany(mappedBy ="author")
-    @JsonIgnore
-    private List<Book> book;
+  @ManyToMany(mappedBy = "author")
+  @JsonIgnore
+  private List<Book> book;
 
-    @Override
-    public String toString() {
-        return "Author{" +
-                "id=" + id +
-                ", authorName='" + authorName + '\'' +
-                ", book=" + book +
-                '}';
-    }
+  @Override
+  public String toString() {
+    return "Author{" +
+        "id=" + id +
+        ", authorName='" + authorName + '\'' +
+        ", book=" + book +
+        '}';
+  }
 
 }

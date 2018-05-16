@@ -4,17 +4,17 @@ import lombok.Data;
 
 @Data
 public class GlobalVariables {
-    public String email;
-    private static GlobalVariables globalVariables = null;
 
+  private static GlobalVariables globalVariables = null;
+  public String email;
 
-    public static GlobalVariables getInstance(){
-        if(globalVariables!=null){
-            return globalVariables;
-        }else{
-            globalVariables = new GlobalVariables();
-        }
-        return globalVariables;
+  public static GlobalVariables getInstance() {
+    if (globalVariables != null) {
+      return globalVariables;
+    } else {
+      globalVariables = new GlobalVariables();
     }
+    return globalVariables;
+  }
 
 }

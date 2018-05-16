@@ -5,12 +5,12 @@ import lombok.Data;
 @Data
 public class LoanPOJO {
 
-    private Long bookId;
+  private Long bookId;
 
-    private String bookTitle;
+  private String bookTitle;
 
-    private int bookPeriod;
+  private int bookPeriod;
 
-    private String userEmail;
+  private String userEmail;
 
 }
