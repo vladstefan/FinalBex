@@ -1,16 +1,16 @@
 package com.db.bexlibrary.BexLibrary.entities;
 
-public class AppUser {
+public class AppUserDTO {
 
   String name;
   String password;
 
-  public AppUser(String name, String password) {
+  public AppUserDTO(String name, String password) {
     this.name = name;
     this.password = password;
   }
 
-  public AppUser() {
+  public AppUserDTO() {
 
   }
 
