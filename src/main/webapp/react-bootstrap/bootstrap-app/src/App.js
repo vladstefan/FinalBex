@@ -49,9 +49,7 @@ class App extends Component {
 
   render() {
 
-    console.log(this.state.loans);
-    // console.log(this.state.posts);
-    //   console.log(this.state.cathegories);
+
 
       return (
       <div className="App">

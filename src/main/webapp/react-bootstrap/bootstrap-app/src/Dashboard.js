@@ -28,7 +28,6 @@ export default class Dashboard extends Component {
     };
 
     render() {
-        console.log("render",this.props.loans);
         const rows=  this.props.loans.map(post => <TableRowDash id={post.id} returnDate={post.returnDate} />)
 
         return (
