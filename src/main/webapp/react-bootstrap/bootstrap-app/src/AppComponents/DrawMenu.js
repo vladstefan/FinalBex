@@ -4,7 +4,7 @@ import MenuItem from 'material-ui/MenuItem';
 import FlatButton from 'material-ui/FlatButton';
 import ArrowDropRight from 'material-ui/svg-icons/navigation-arrow-drop-right';
 import  Menu from 'material-ui/svg-icons/navigation/menu';
-import CathegoryBookParser from './CathegoryBookParser';
+import CathegoryBookParser from '../BookComponents/CathegoryBookParser';
 import { Modal, Button } from 'react-bootstrap';
 
 export default class DrawMenu extends React.Component {

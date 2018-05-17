@@ -32,7 +32,7 @@ export default class Dashboard extends Component {
             <Table onRowSelection={this.handleRowSelection}>
                 <TableHeader adjustForCheckbox={this.state.showCheckboxes} displaySelectAll={this.state.showCheckboxes}>
 
-                    <TableRow>
+                    <TableRow >
                         <TableHeaderColumn>ID</TableHeaderColumn>
                         <TableHeaderColumn>Name</TableHeaderColumn>
                         <TableHeaderColumn>Status</TableHeaderColumn>

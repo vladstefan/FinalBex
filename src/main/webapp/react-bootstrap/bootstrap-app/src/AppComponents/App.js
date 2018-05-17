@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import {Navbar, Button, FormGroup, FormControl } from 'react-bootstrap';
 import './App.css';
 import AppFloatingBar from './AppFloatingBar';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import PopularBooks from './PopularBooks';
 import { Link } from 'react-router';
 import cookie from 'react-cookie';
@@ -59,9 +58,7 @@ this.accountLogged = this.accountLogged.bind();
       <div className="App">
         <div className="opacity__pic">
           <div className="up__section">
-            <MuiThemeProvider>
               <AppFloatingBar items={this.state.cathegories} />
-              <Link to="/dashboard">Admin_Dashboard</Link>
               <div className="picture__section">
                 <div>
                   <h1 className="header">BEXLibrary</h1>
@@ -71,7 +68,6 @@ this.accountLogged = this.accountLogged.bind();
                   {<PopularBooks booklist={this.state.posts} />}
                 </div>
               </div>
-            </MuiThemeProvider>
           </div>
         </div>
       </div>

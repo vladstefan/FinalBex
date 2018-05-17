@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
-import Book from './Book';
+import Book from '../BookComponents/Book';
 
 const styles = {
     root: {
