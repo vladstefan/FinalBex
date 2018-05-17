@@ -14,7 +14,6 @@ import lombok.Data;
 @Data
 public class Category extends BaseEntity {
 
-
     @NotNull
     private String categoryName;
     @OneToMany(mappedBy = "category")

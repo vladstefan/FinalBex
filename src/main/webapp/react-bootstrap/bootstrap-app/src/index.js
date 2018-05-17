@@ -6,5 +6,5 @@ import ReactDOM from 'react-dom';
 import Dashboard from './Dashboard'
 
 ReactDOM.render(<App />, document.getElementById('root'));
-// ReactDOM.render(<Dashboard />, document.getElementById('dash'));
+// ReactDOM.render(<Dashboard />, document.getElementById('root'));
 registerServiceWorker();

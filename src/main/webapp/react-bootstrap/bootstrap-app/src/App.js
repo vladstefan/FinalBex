@@ -4,19 +4,28 @@ import './App.css';
 import AppFloatingBar from './AppFloatingBar';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import PopularBooks from './PopularBooks';
+import Dashboard from "./Dashboard";
 
 
 class App extends Component {
 
   constructor(props) {
-    super(props);
-    this.state = {
-      posts: [],
-      cathegories:[]
-    };
+      super(props);
+      this.state = {
+          posts: [],
+          cathegories: [],
+          loans: []
+      }
   }
 
   componentDidMount() {
+      //dashboard
+      fetch('http://localhost:8080/admin')
+          .then(response => response.json())
+          .then(loans => {
+              this.setState({ loans })
+          });
+
     //the 4 categories
     fetch('http://localhost:8080/categories')
       .then(response => response.json())
@@ -32,29 +41,36 @@ class App extends Component {
 
       });
 
+
+
   }
 
 
 
   render() {
-    console.log(this.state.posts);
-      console.log(this.state.cathegories);
+
+    console.log(this.state.loans);
+    // console.log(this.state.posts);
+    //   console.log(this.state.cathegories);
+
       return (
       <div className="App">
-        <div className="up__section">
-          <MuiThemeProvider>
-            <AppFloatingBar items={this.state.cathegories}/>
-            <div className="picture__section">
-              <div>
-                <h1 className="header">BEXLibrary</h1>
-                <h2 className="header header__description">Bring the knoledge closer!</h2>
-              </div>
-              <div className="popularBooks__list">
-                {<PopularBooks booklist={this.state.posts}/>}
-              </div>
-            </div>
-          </MuiThemeProvider>
-        </div>
+        {/*<div className="up__section">*/}
+          {/*<MuiThemeProvider>*/}
+            {/*<AppFloatingBar items={this.state.cathegories}/>*/}
+            {/*<div className="picture__section">*/}
+              {/*<div>*/}
+                {/*<h1 className="header">BEXLibrary</h1>*/}
+                {/*<h2 className="header header__description">Bring the knoledge closer!</h2>*/}
+              {/*</div>*/}
+              {/*<div className="popularBooks__list">*/}
+                {/*{<PopularBooks booklist={this.state.posts}/>}*/}
+              {/*</div>*/}
+            {/*</div>*/}
+          {/*</MuiThemeProvider>*/}
+        {/*</div>*/}
+
+         <Dashboard  loans={this.state.loans}  />
       </div>
     );
   }
