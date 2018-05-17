@@ -11,6 +11,5 @@ public class LoanPOJO {
 
   private int bookPeriod;
 
-  private String token;
 
 }

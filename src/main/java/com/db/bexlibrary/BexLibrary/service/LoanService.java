@@ -8,6 +8,7 @@ import io.jsonwebtoken.Jwts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpServletRequest;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -48,9 +49,9 @@ public class LoanService {
         return loanRepo.findAll();
     }
 
-    public Loan borrowMethod(LoanPOJO input) {
+    public Loan borrowMethod(LoanPOJO input, HttpServletRequest request) {
         Loan loan = new Loan();
-        String token = input.getToken();
+        String token = request.getHeader("Cookie");
         String username = getUsername(token);
         Book book = bookRepo.findBookById(input.getBookId());
         loan.setLoanBook(book);

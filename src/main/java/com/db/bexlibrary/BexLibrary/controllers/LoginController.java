@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
 public class LoginController {
 
-    private static final Logger logger = LoggerFactory.getLogger(this.getClass());
+    private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @GetMapping(value = "/permissions")
     private void tryPermissions(){
