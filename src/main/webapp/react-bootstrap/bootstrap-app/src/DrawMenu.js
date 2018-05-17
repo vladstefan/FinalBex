@@ -33,7 +33,7 @@ export default class DrawMenu extends React.Component {
 
     fetchData(value) {
         console.log(value);
-        fetch(`http://localhost:8080/booksbycategory/${value}`, {
+        fetch(`http://localhost:8090/booksbycategory/${value}`, {
             method: 'get'
 
         }).then(response => response.json())
