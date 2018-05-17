@@ -1,6 +1,7 @@
 package com.db.bexlibrary.BexLibrary.service;
 
 import com.db.bexlibrary.BexLibrary.entities.*;
+import com.db.bexlibrary.BexLibrary.pojos.LoanPOJO;
 import com.db.bexlibrary.BexLibrary.repositories.BookRepo;
 import com.db.bexlibrary.BexLibrary.repositories.LoanRepo;
 import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
@@ -67,5 +68,11 @@ public class LoanService {
         }
 
         return loan;
+    }
+
+    public void returnBookMethod(Long bookId, Long loanId){
+
+        loanRepo.updateLoan(loanId);
+        bookRepo.updateReturnedBook(bookId);
     }
 }
