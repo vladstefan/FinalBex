@@ -19,7 +19,6 @@ public class BookService {
 
     @Autowired
     private BookRepo bookRepo;
-
     @Autowired
     private AuthorRepo authorRepo;
     @Autowired
@@ -50,4 +49,11 @@ public class BookService {
 
     }
 
+    public List<Book> searchMethod(String title){
+        List<Book> results = new ArrayList<>();
+
+        results.addAll(findBooksByAuthorName(title));
+        results.addAll(bookRepo.findBooksByTitleContaining(title));
+        return results;
+    }
 }
