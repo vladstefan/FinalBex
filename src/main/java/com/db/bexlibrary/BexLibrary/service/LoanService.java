@@ -4,6 +4,7 @@ import com.db.bexlibrary.BexLibrary.entities.*;
 import com.db.bexlibrary.BexLibrary.repositories.BookRepo;
 import com.db.bexlibrary.BexLibrary.repositories.LoanRepo;
 import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
+import io.jsonwebtoken.Jwts;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,10 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+
+import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.PREFIX_SIZE;
+import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.SECRET;
+import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.TOKEN_PREFIX;
 
 @Service
 public class LoanService {
@@ -28,13 +33,30 @@ public class LoanService {
     @Autowired
     UserRepo userRepo;
 
-    public List<Loan> getAllLoans(){
-        return  loanRepo.findAll();
+    public String getUsername(String token) {
+        token = token.substring(PREFIX_SIZE);
+        String username = null;
+        try {
+            username = Jwts.parser().setSigningKey(SECRET)
+                    .parseClaimsJws(token.replace(TOKEN_PREFIX, ""))
+                    .getBody().getSubject();
+        } catch (Exception e) {
+            return null;
+        }
+
+        return username;
     }
 
-    public Loan borrowMethod(LoanPOJO input){
-        Loan loan = new Loan();
+    public List<Loan> getAllLoans() {
+        return loanRepo.findAll();
+    }
 
+    public Loan borrowMethod(LoanPOJO input) {
+        Loan loan = new Loan();
+        String token = input.getToken();
+        String username = getUsername(token);
+        if (username == null)
+            return null;
         Book book = bookRepo.findBookById(input.getBookId());
         loan.setLoanBook(book);
         int period = input.getBookPeriod();
@@ -45,15 +67,13 @@ public class LoanService {
         Timestamp retDate = Timestamp.valueOf(plusWeek);
         System.out.println(currDate + "--------" + retDate);
         loan.setReturnDate(retDate);
-
-       // User user = userRepo.findUserByEmail(GlobalVariables.getInstance().getEmail());
-       // loan.setLoanUser(user);
-
+        User user = userRepo.findUserByEmail(username);
+        loan.setLoanUser(user);
         loan.setReturned(false);
 
 
         if (book.getNoAvailableCopies() > 0) {
-            String date=retDate.toString().substring(0,10);
+            String date = retDate.toString().substring(0, 10);
             String confirmMail = "Your book (" + book.getTitle() + ") was successfully reserved. We are waiting for you at the BEX Library(1st floor) to pick it up.\n" +
                     "For more information you can contact Admin at admin@gmail.com.\n" +
                     "Please return the book until " + date + "\n" +
