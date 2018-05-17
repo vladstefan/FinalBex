@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class MailSender {
 
 
-  private final Logger logger = LoggerFactory.getLogger(this.getClass());
+  private static final Logger logger = LoggerFactory.getLogger(this.getClass());
 
   private JavaMailSender javaMailSender;
 
