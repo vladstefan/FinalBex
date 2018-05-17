@@ -11,7 +11,6 @@ import {
 export default class TableRowDash extends Component {
 
     render(){
-        console.log('received id: ',this.props.id);
         return(
             <div>
                 <TableRow >
