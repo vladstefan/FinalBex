@@ -24,11 +24,7 @@ public class SearchController {
 
   @GetMapping(value = "/search/{title}")
   private ResponseEntity<?> searchMethod(@PathVariable String title) {
-    List<Book> results = new ArrayList<>();
-
-    results.addAll(bookService.findBooksByAuthorName(title));
-    results.addAll(bookRepo.findBooksByTitleContaining(title));
-    return new ResponseEntity<List<Book>>(results, HttpStatus.OK);
+    return new ResponseEntity<List<Book>>(bookService.searchMethod(title), HttpStatus.OK);
   }
 
 }

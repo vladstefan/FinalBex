@@ -4,10 +4,13 @@ import com.db.bexlibrary.BexLibrary.entities.Loan;
 import com.db.bexlibrary.BexLibrary.pojos.LoanPOJO;
 import com.db.bexlibrary.BexLibrary.javamail.MailSender;
 import com.db.bexlibrary.BexLibrary.pojos.ReturnedBookPOJO;
+import com.db.bexlibrary.BexLibrary.pojos.SimpleLoan;
 import com.db.bexlibrary.BexLibrary.repositories.BookRepo;
 import com.db.bexlibrary.BexLibrary.repositories.LoanRepo;
 import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
 import com.db.bexlibrary.BexLibrary.service.LoanService;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -46,7 +49,7 @@ public class LoanController {
 
   @GetMapping("/admin")
   public ResponseEntity<?> getAllLoans() {
-    return new ResponseEntity<List<Loan>>(loanService.getAllLoans(), HttpStatus.OK);
+    return new ResponseEntity<List<SimpleLoan>>(loanService.getAllLoans(), HttpStatus.OK);
   }
 
   @RequestMapping(value = "/return", method = RequestMethod.POST)
