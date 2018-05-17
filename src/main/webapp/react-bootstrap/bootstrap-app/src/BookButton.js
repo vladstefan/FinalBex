@@ -51,7 +51,7 @@ class BookButton extends Component {
 
 
     postLoan(loan) {
-        fetch('http://localhost:3000/loans', {
+        fetch('http://localhost:8090/loans', {
             method: 'post',
             headers: {
                 'Content-Type': 'application/json'

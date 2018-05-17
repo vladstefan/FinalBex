@@ -4,12 +4,11 @@ import RentBook from './RentButton';
 
 class Book extends Component {
 
-
     render() {
         return (
             <div className="card">
                 <div >
-                    <img className="book__img" src={"https://s3.eu-central-1.amazonaws.com/com.db.bexlib.images/id"+this.props.id+".jpeg"} alt="ceva" />
+                    <img className="book__img" src={"https://s3.eu-central-1.amazonaws.com/com.db.bexlib.images/id" + this.props.id + ".jpeg"} alt="ceva" />
                 </div>
                 <div>
                     <div>
