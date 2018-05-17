@@ -11,6 +11,9 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -19,6 +22,8 @@ import org.springframework.security.web.authentication.www.BasicAuthenticationFi
 
 public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
 
+
+  Logger logger = LoggerFactory.getLogger(this.getClass());
 
   private CustomUserDetailsService customUserDetailsService;
 
@@ -34,14 +39,17 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
     String header = request.getHeader("Cookie");
     if (header == null) {
       chain.doFilter(request, response);
+      logger.info("User request has failed authoriziation filter");
       return;
     }
     UsernamePasswordAuthenticationToken username = getAuthentificationToken(request);
     if (username == null) {
       chain.doFilter(request, response);
+      logger.info("User request has failed authoriziation filter");
       return;
     }
     SecurityContextHolder.getContext().setAuthentication(username);
+    logger.info("User request has passed authoriziation filter");
     chain.doFilter(request, response);
   }
 
@@ -58,6 +66,7 @@ public class JWTAuthorizationFilter extends BasicAuthenticationFilter {
           .parseClaimsJws(token.replace(TOKEN_PREFIX, ""))
           .getBody().getSubject();
     } catch (Exception e) {
+      logger.error("Incorrect token");
       return null;
     }
 

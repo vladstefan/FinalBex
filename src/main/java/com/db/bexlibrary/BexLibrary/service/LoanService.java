@@ -36,13 +36,10 @@ public class LoanService {
     public String getUsername(String token) {
         token = token.substring(PREFIX_SIZE);
         String username = null;
-        try {
-            username = Jwts.parser().setSigningKey(SECRET)
+        username = Jwts.parser().setSigningKey(SECRET)
                     .parseClaimsJws(token.replace(TOKEN_PREFIX, ""))
                     .getBody().getSubject();
-        } catch (Exception e) {
-            return null;
-        }
+
 
         return username;
     }
@@ -55,8 +52,6 @@ public class LoanService {
         Loan loan = new Loan();
         String token = input.getToken();
         String username = getUsername(token);
-        if (username == null)
-            return null;
         Book book = bookRepo.findBookById(input.getBookId());
         loan.setLoanBook(book);
         int period = input.getBookPeriod();
