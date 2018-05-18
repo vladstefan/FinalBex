@@ -32,15 +32,12 @@ export default class DrawMenu extends React.Component {
     handleClose = () => this.setState({ open: false });
 
     fetchData(value) {
-        console.log(value);
         fetch(`http://localhost:8090/booksbycategory/${value}`, {
             method: 'get'
 
         }).then(response => response.json())
             .then(catheg => {
-                // console.log(books);
                 this.setState({ catheg })
-                // console.log(this.state.books);
             });
 
     }
@@ -62,7 +59,6 @@ export default class DrawMenu extends React.Component {
     }
    
     render() {
-        console.log(this.state.catheg);
         return (
             <div>
                 <FlatButton

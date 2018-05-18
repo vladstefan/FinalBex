@@ -151,6 +151,17 @@ html{
 }
 
 .app__login{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 100px 0 -150px;
+
+}
+
+.login__credentials{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }

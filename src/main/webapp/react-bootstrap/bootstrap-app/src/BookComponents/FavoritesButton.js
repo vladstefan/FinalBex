@@ -15,38 +15,14 @@ export default class FavoritesButton extends Component {
     }
 
 
-
-    handleToggle(value) {
-        this.setState({ isInFavorites: !value });
-    }
-
-    sendDataToBE(value){
-
-    }
-
-
-    changeIcon() {
-        if (this.isInFavorites) {
-
-            return (<FlatButton className="bar__btn"
-                eventKey={1}
-                icon={<StarBorder color="#fff" />}
-                onClick={this.handleToggle(this.isInFavorites)}
-            />);
-
-        } else {
-            return (<FlatButton className="bar__btn"
-                eventKey={1}
-                icon={<StarBorder color="#524" />}
-                onClick={this.handleToggle(this.isInFavorites)}
-            />);
-        }
-    }
-
     render() {
         return (
             <div className="favorites">
-                {/* {this.changeIcon()} */}
+                <FlatButton className="bar__btn"
+                    eventKey={1}
+                    icon={<StarBorder color="#fff" />}
+                    onClick={this.handleToggle(this.isInFavorites)}
+                />
             </div>
         );
     }

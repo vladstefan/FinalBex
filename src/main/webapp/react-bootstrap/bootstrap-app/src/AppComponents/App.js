@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import {Navbar, Button, FormGroup, FormControl } from 'react-bootstrap';
 import './App.css';
 import AppFloatingBar from './AppFloatingBar';
 import PopularBooks from './PopularBooks';
@@ -13,7 +12,6 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-this.accountLogged = this.accountLogged.bind();
 
     this.state = {
       posts: [],
@@ -23,14 +21,6 @@ this.accountLogged = this.accountLogged.bind();
     };
   }
 
-  accountLogged(){
-      // if(this.cook){
-      //   return true;
-      // } else {
-      //   //TODO
-      //   return false;
-      // }
-  }
 
   componentDidMount() {
     //the 4 categories
@@ -53,7 +43,6 @@ this.accountLogged = this.accountLogged.bind();
 
 
   render() {
-    console.log(this.state.posts);
     return (
       <div className="App">
         <div className="opacity__pic">

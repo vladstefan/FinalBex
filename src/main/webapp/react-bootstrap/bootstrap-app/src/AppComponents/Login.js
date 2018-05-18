@@ -11,14 +11,13 @@ class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            open: false,
             name: "",
             password: "",
-            isLoggedIn: false
+            isLoggedIn: false,
+            role:{}
 
         };
         this.submitChanges = this.submitChanges.bind(this);
-        this.giveAccesToMainPage = this.giveAccesToMainPage.bind(this);
 
     }
 
@@ -28,26 +27,26 @@ class Login extends Component {
             method: 'post',
             credentials: 'include',
             body: JSON.stringify(account)
-        }).then(response => {
-            console.log(response.headers.get('X-Set-Cookie'));
-            if(response.status == 200){
-                this.setState({isLoggedIn:true});
-                this.props.router.push('/home');
+        })
+            // .then(response => response.json())
+            // .then(role => {
+            //     this.setState({ role });
+            // })
+            .then(response => {
                 
-            }
-        });
+                if (response.status == 200) {
+                    // if(this.state.role == "user"){
+                        this.setState({ isLoggedIn: true });
+                        this.props.router.push('/home');
+                    // } else if(this.state.role == "admin"){
+                    //     this.props.router.push('/dashboard');
+                    // }
+
+                }
+            });
 
     }
 
-
-
-    handleToggle = () => this.setState({ open: !this.state.open });
-
-
-    giveAccesToMainPage(){
-        if(this.isLoggedIn)
-            return <Link to="/home">Admin_Dashboard</Link>
-    }
 
     render() {
 
@@ -56,7 +55,8 @@ class Login extends Component {
             <div>
                 <FlatButton onClick={this.handleToggle} className="bar__btn" eventKey={1} icon={< People color="#fff" />} />
                 <div className="app__login">
-                    <div>
+                    <h1> Account Login </h1>
+                    <div className="login__credentials">
                         <TextField className="username" id="user_id"
                             hintText="Username"
                             floatingLabelText="Username"
@@ -74,7 +74,6 @@ class Login extends Component {
                         />
                         <Button bsStyle="danger" bsSize="small" onClick={this.submitChanges}>Submit</Button>
                     </div>
-                    {this.giveAccesToMainPage()}
                 </div>
 
             </div>

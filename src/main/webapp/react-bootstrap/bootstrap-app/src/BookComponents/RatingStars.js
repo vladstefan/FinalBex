@@ -18,7 +18,6 @@ class RatingStars extends Component {
 
     ratingChanged = (newRating) => {
         if (this.state.wasNotRated) {
-            console.log(newRating);
             this.setState({ wasNotRated: false });
             this.setState({ changedRating: newRating });
             fetch('http://localhost:8090/ratings', {
