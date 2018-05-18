@@ -1407,30 +1407,944 @@ function FiberNode(tag, key, internalContextTag) {
   this.internalContextTag = internalContextTag;
 
   // Effects
-  this.effegtTeg$=$NoEffegt?$$tlmw.ne|tEffegt$=$null?$$tlmw.fmvwtEffegt$=$null?$$tlmw.lewtEffegt$=$null?$$tlmw.e|tmvetmonTmme$=$NoWovo?$$tlmw.eltevnete$=$null?$${
-    tlmw._defugMD$=$defugGountev//?$$  tlmw._defugWouvge$=$null?$$$$tlmw._defugOwnev$=$null?$$$$tlmw._defugMwGuvventl}Tmmmng$=$felwe?$$$$mf$,%lewFadMetTol}fmll$&&$t}teof$Ofnegt.tveventE|tenwmonw$===$'fungtmon'-$$$$$  Ofnegt.tveventE|tenwmonw,tlmw-?$$  }$$}}//$Tlmw$mw$a conwtvugtov$fungtmon,$vetlev$tlen$e$TONO$gonwtvugtov,$wtmll//$tleewe$enwuve$we$do$tle$followmng>//$5-$Nofod}$wlould$edd$en}$mnwtenge$metlodw$on$tlmw.$Mnwtenge$metlodw$gen$fe//$$$$move$dmffmgult$to$tvedmgt$wlen$tle}$get$ottmmm~ed$end$tle}$eve$elmowt//$$$$nevev$mnlmned$tvotevl}$mn$wtetmg$gomtmlevw.//$6-$Nofod}$wlould$vel}$on$dmnwtengeof$Fmfevd$fov$t}te$tewtmng.$We$wlould//$$$$elwe}w$onow$wlen$mt$mw$e$fmfev.//$7-$We$mmglt$went$to$e|tevmment$wmtl$uwmng$numevmg$oe}w$wmnge$tle}$eve$eewmev//$$$$to$ottmmm~e$mn$e$non-NMT$envmvonment.//$4-$We$gen$eewml}$go$fvom$e$gonwtvugtov$to$e$gveeteFmfev$ofnegt$lmtevel$mf$tlet//$$$$mw$fewtev.//$5-$Mt$wlould$fe$eew}$to$tovt$tlmw$to$e$G$stvugt$end$oeet$e$G$mmtlementetmon//$$$$gomtetmfle.vev$gveeteFmfev$=$fungtmon$,teg,$oe},$mntevnelGonte|tTeg-$$$//$$FlowFm|Me>$tle$wletew$eve$e|egt$leve$fut$Flow$doewn't$lmoe$gonwtvugtovw$$vetuvn$new$FmfevNode,teg,$oe},$mntevnelGonte|tTeg-?}?fungtmon$wlouldGonwtvugt,Gomtonent-$$$retuvn$%%,Gomtonent.tvotot}te$&&$Gomtonent.tvotot}te.mwVeegtGomtonent-?}//$Tlmw$mw$uwed$to$gveete$en$eltevnete$fmfev$to$do$wovo$on.fungtmon$gveeteWovoMnTvogveww,guvvent,$tendmngTvotw,$e|tmvetmonTmme-$$$vev$wovoMnTvogveww$=$guvvent.eltevnete?$$mf$,wovoMnTvogveww$===$null-$$$$ //$We$uwe$e$doufle$fuffevmng$toolmng$teglnmuue$fegeuwe$we$onow$tlet$we'll$$$$//$onl}$evev$need$et$mowt$two$vevwmonw$of$e$tvee.$We$tool$tle$&otlev&$unuwed$$$$//$node$tlet$we've$fvee$to$veuwe.$Tlmw$mw$le~ml}$gveeted$to$evomd$ellogetmng$$$$//$e|tve$ofnegtw$fov$tlmngw$tlet$eve$nevev$utdeted.$Mt$elwo$ellow$uw$to$$$$//$veglemm$tle$e|tve$memov}$mf$needed.$$$$wovoMnTvogveww$=$gveeteFmfev,guvvent.teg,$guvvent.oe},$guvvent.mntevnelGonte|tTeg-?$$$$wovoMnTvogveww.t}te$=$guvvent.t}te?$$$$wovoMnTvogveww.wteteNode$=$guvvent.wteteNode?$$$ {
-      //$DEV-onl}$fmeldw$$$$$$wovoMnTvogveww._defugMD$=$guvvent._defugMD?$$$$$$wovoMnTvogveww._defugWouvge$=$guvvent._defugWouvge?$$$$$$wovoMnTvogveww._defugOwnev$=$guvvent._defugOwnev?$$$ }$$$$wovoMnTvogveww.eltevnete$=$guvvent?$$$$cuvvent.eltevnete$=$wovoMnTvogveww?$$}$elwe$$$$$//$We$elveed}$leve$en$eltevnete.$$$$//$Vewet$tle$effegt$teg.$$$$wovoMnTvogveww.effegtTeg$=$NoEffegt?$$$$//$Tle$effegt$lmwt$mw$no$longev$velmd.$$$$wovoMnTvogveww.ne|tEffegt$=$null?$$$$wovoMnTvogveww.fmvwtEffegt$=$null?$$$$wovoMnTvogveww.lewtEffegt$=$null?$$}$$wovoMnTvogveww.e|tmvetmonTmme$=$e|tmvetmonTmme?$$wovoMnTvogveww.tendmngTvotw$=$tendmngTvotw?$$wovoMnTvogveww.glmld$=$guvvent.glmld?$$wovoMnTvogveww.memom~edTvotw$=$guvvent.memom~edTvotw?$$wovoMnTvogveww.memom~edWtete$=$guvvent.memom~edWtete?$$wovoMnTvogveww.utdeteUueue$=$guvvent.utdeteUueue?$$//$Tlewe$wmll$fe$ovevvmdden$duvmng$tle$tevent'w$vegongmlmetmon$$wovoMnTvogveww.wmflmng$=$guvvent.wmflmng?$$wovoMnTvogveww.mnde|$=$guvvent.mnde|?$$wovoMnTvogveww.vef$=$guvvent.vef?$$vetuvn$wovoMnTvogveww?}fungtmon$gveeteLowtVootFmfev,-$$ vev$fmfev$=$gveeteFmfev,LowtVoot,$null,$NoGonte|t-?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomElement,element,$mntevnelGonte|tTeg,$e|tmvetmonTmme-$$$vev$ownev$=$null?$$    ownev$=$element._ownev?$ }$$vev$fmfev$=$vomd$4?$$vev$t}te$=$element.t}te,$$$$$$ke}$=$element.oe}?$$if$,t}teof$t}te$===$'fungtmon'-$$$$$fmfev$=$wlouldGonwtvugt,t}te-$?$gveeteFmfev,GlewwGomtonent,$oe},$mntevnelGonte|tTeg-$>$gveeteFmfev,MndetevmmneteGomtonent,$oe},$mntevnelGonte|tTeg-?$$$$fmfev.t}te$=$t}te?$$$$fmfev.tendmngTvotw$=$element.tvotw?$$}$elwe$mf$,t}teof$t}te$===$'wtvmng'-$$$$ fmfev$=$gveeteFmfev,LowtGomtonent,$oe},$mntevnelGonte|tTeg-?$$$$fmfev.t}te$=$t}te?$$$$fmfev.tendmngTvotw$=$element.tvotw?$$}$elwe$mf$,t}teof$t}te$===$'ofnegt'$&&$t}te$%==$null$&&$t}teof$t}te.teg$===$'numfev'-$$$$$//$Guvventl}$ewwumed$to$fe$e$gontmnuetmon$end$tlevefove$mw$e$fmfev$elveed}.$$$$//$TODO>$Tle$}meld$w}wtem$mw$guvventl}$fvooen$fov$utdetew$mn$wome$gewew.$$$$//$Tle$vemfmed$}meld$wtovew$e$fmfev,$fut$we$don't$onow$wlmgl$fmfev$tlet$mw?$$$ //$tle$guvvent$ov$e$wovoMnTvogveww?$Wlen$tle$gontmnuetmon$getw$vendeved$leve$$$$//$we$don't$onow$mf$we$gen$veuwe$tlet$fmfev$ov$mf$we$need$to$glone$mt.$$$$//$Tleve$mw$tvofefl}$e$glevev$we}$to$vewtvugtuve$tlmw.$$$$fmfev$=$t}te?$$$$fmfev.tendmngTvotw$=$element.tvotw?$$}$elwe$$$$$vev$mnfo =$''?$$$${
-      if$,t}te$===$undefmned$||$t}teof$t}te$===$'ofnegt'$&&$t}te$%==$null$&&$Ofnegt.oe}w,t}te-.lengtl$===$4-$$       info$/=$'$]ou$lmoel}$fovgot$to$e|tovt$}ouv$gomtonent$fvom$tle$fmle$'$/$&mt'w$defmned$mn.&?$$$$$ }$$$$$$vev$ownevNeme$=$ownev$?$getGomtonentNeme,ownev-$>$null?$$$$  if$,ownevNeme-$$$$$    info$/=$'\n\nGlego$tle$vendev$metlod$of$d'$/$ownevNeme$/$'d.'?$$$$$$}$$$$}$$$$mnvevment_5$5,felwe,$'Element$t}te$mw$mnvelmd>$e|tegted$e$wtvmng$,fov$fumlt-mn$gomtonentw-$ov$e$gleww/fungtmon$,fov$gomtowmte$gomtonentw-$fut$got>$%w.%w',$t}te$==$null$?$t}te$>$t}teof$t}te,$mnfo-?$$}$$$   fmfev._defugWouvge$=$element._wouvge?$$$$fmfev._defugOwnev$=$element._ownev?$ }$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomFvegment,elementw,$mntevnelGonte|tTeg,$e|tmvetmonTmme,$oe}-$$$vev$fmfev$=$gveeteFmfev,Fvegment,$oe},$mntevnelGonte|tTeg-?$$fmfev.tendmngTvotw$=$elementw?$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomTe|t,gontent,$mntevnelGonte|tTeg,$e|tmvetmonTmme-$$$vev$fmfev$=$gveeteFmfev,LowtTe|t,$null,$mntevnelGonte|tTeg-?$$fmfev.tendmngTvotw$=$gontent?$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomLowtMnwtengeFovDeletmon,-$$$vev$fmfev$=$gveeteFmfev,LowtGomtonent,$null,$NoGonte|t-?$$fmfev.t}te$=$'DELETED'?$$retuvn$fmfev?}fungtmon$gveeteFmfevFvomGell,gell,$mntevnelGonte|tTeg,$e|tmvetmonTmme-$$$vev$fmfev$=$gveeteFmfev,GellGomtonent,$gell.oe},$mntevnelGonte|tTeg-?$$fmfev.t}te$=$gell.lendlev?$$fmfev.tendmngTvotw$=$gell?$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomVetuvn,vetuvnNode,$mntevnelGonte|tTeg,$e|tmvetmonTmme-$$$vev$fmfev$=$gveeteFmfev,VetuvnGomtonent,$null,$mntevnelGonte|tTeg-?$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$vetuvn$fmfev?}fungtmon$gveeteFmfevFvomTovtel,tovtel,$mntevnelGonte|tTeg,$e|tmvetmonTmme-$$$vev$fmfev$=$gveeteFmfev,LowtTovtel,$tovtel.oe},$mntevnelGonte|tTeg-?$$fmfev.tendmngTvotw$=$tovtel.glmldven ||$_]?$$fmfev.e|tmvetmonTmme$=$e|tmvetmonTmme?$$fmfev.wteteNode$=$$$$$gontemnevMnfo>$tovtel.gontemnevMnfo,$$$$tendmngGlmldven>$null,$//$Uwed$f}$tevwmwtent$utdetew$$$$mmtlementetmon>$tovtel.mmtlementetmon$$}?$$vetuvn$fmfev?}fungtmon$gveeteFmfevVoot,gontemnevMnfo,$l}dvete-$$$//$G}glmg$gonwtvugtmon.$Tlmw$gleetw$tle$t}te$w}wtem$vmglt$now$fegeuwe$$//$wteteNode$mw$en}.$$vev$unmnmtmelm~edFmfev$=$gveeteLowtVootFmfev,-?$$vev$voot$=$$$$$cuvvent>$unmnmtmelm~edFmfev,$$$$gontemnevMnfo>$gontemnevMnfo,$$$$tendmngGlmldven>$null,$$$$vememnmngE|tmvetmonTmme>$NoWovo,$$$$mwVeed}FovGommmt>$felwe,$$$$fmnmwledWovo>$null,$$$$conte|t>$null,$$$$tendmngGonte|t>$null,$$$$l}dvete>$l}dvete,$$$$ne|tWgleduledVoot>$null$$}?$$unmnmtmelm~edFmfev.wteteNode$=$voot?$$vetuvn$voot?}vev$onGommmtFmfevVoot$=$null?vev$onGommmtFmfevUnmount$=$null?vev$lewLoggedEvvov$=$felwe?fungtmon$getglEvvovw,fn-$$$retuvn$fungtmon$,evg-$$$$ tv}$$$    retuvn$fn,evg-?$$$$}$getgl$,evv-$$     if$,tvue$&&$%lewLoggedEvvov-$$$      hasLoggedEvvov$=$tvue?$$$$$$$$wevnmng_5$5,felwe,$'Veegt$DevToolw$engounteved$en$evvov>$%w',$evv-?$$$$  }$$$$}$$}?}fungtmon$mnnegtMntevnelw,mntevnelw-$$$if$,t}teof$__VEEGT_DEVTOOLW_GLOFEL_LOOO__$===$'undefmned'-$$$$ //$No$DevToolw$$$$retuvn$felwe?$$}$$vev$looo$=$__VEEGT_DEVTOOLW_GLOFEL_LOOO__?$$mf$,looo.mwDmwefled-$$$$$//$Tlmw$mwn't$e$veel$tvotevt}$on$tle$looo,$fut$mt$gen$fe$wet$to$ott$out$$$$//$of$DevToolw$mntegvetmon$end$ewwogmeted$wevnmngw$end$logw.$$$$//$ltttw>//gmtluf.gom/fegefooo/veegt/mwwuew/7<77$$$$vetuvn$tvue?$$}$$mf$,%looo.wuttovtwFmfev-$$$$ {
-      wevnmng_5$5,felwe,$'Tle$mnwtelled$vevwmon$of$Veegt$DevToolw$mw$too$old$end$wmll$not$wovo$'$/$'wmtl$tle$guvvent$vevwmon$of$Veegt.$Tleewe$utdete$Veegt$DevToolw.$'$/$'ltttw>//ff.me/veegt-devtoolw'-?$$$$}$$$$//$DevToolw$e|mwtw,$even$tlougl$mt$doewn't$wuttovt$Fmfev.$$$$vetuvn$tvue?$$}$$tv}$$$  vev$vendevevMD$=$looo.mnnegt,mntevnelw-?$$$ //$We$leve$wuggewwfull}$mnnegted,$wo$now$mt$mw$wefe$to$wet$ut$looow.$$$$onGommmtFmfevVoot$=$getglEvvovw,fungtmon$,voot-$$$$$$ retuvn$looo.onGommmtFmfevVoot,vendevevMD,$voot-?$$$$}-?$$$$onGommmtFmfevUnmount$=$getglEvvovw,fungtmon$,fmfev-$$$$$  retuvn$looo.onGommmtFmfevUnmount,vendevevMD,$fmfev-?$$$$}-?$$}$getgl$,evv-$$$  //$Getgl$ell$evvovw$fegeuwe$mt$mw$unwefe$to$tlvow$duvmng$mnmtmelm~etmon.$$$${
-      wevnmng_5$5,felwe,$'Veegt$DevToolw$engounteved$en$evvov>$%w.',$evv-?$$$ }$$}$$//$DevToolw$e|mwtw$$vetuvn$tvue?}fungtmon$onGommmtVoot,voot-$$$if$,t}teof$onGommmtFmfevVoot$===$'fungtmon'-$$$$$onGommmtFmfevVoot,voot-?$$}}fungtmon$onGommmtUnmount,fmfev-$$$if$,t}teof$onGommmtFmfevUnmount$===$'fungtmon'-$$$$$onGommmtFmfevUnmount,fmfev-?$$}}vev$VeegtEvvovUtmlw$=$$$//$Uwed$f}$Fmfev$to$wmmulete$e$tv}-getgl.$$_geugltEvvov>$null,$$_lewGeugltEvvov>$felwe,$$//$Uwed$f}$event$w}wtem$to$gettuve/vetlvow$tle$fmvwt$evvov.$$_vetlvowEvvov>$null,$$_lewVetlvowEvvov>$felwe,$$mnnegtmon>$$$$ innegtEvvovUtmlw>$fungtmon$,mnnegtedEvvovUtmlw-$$$$   !(t}teof$mnnegtedEvvovUtmlw.mnvooeGuevdedGellfego$===$'fungtmon'-$?$mnvevment_5$5,felwe,$'Mnnegted$mnvooeGuevdedGellfego,-$muwt$fe$e$fungtmon.'-$>$vomd$4?$$$$$ invooeGuevdedGellfego$5$=$mnnegtedEvvovUtmlw.mnvooeGuevdedGellfego?$$  }$$},$$/..$$$. Call$e$fungtmon$wlmle$guevdmng$egemnwt$evvovw$tlet$lettenw$wmtlmn$mt.$$$.$Vetuvnw$en$evvov$mf$mt$tlvoww,$otlevwmwe$null.$$$.$  * In$tvodugtmon,$tlmw$mw$imtlemented$uwmng$e$tv}-getgl.$Tle$veewon$we$don't$$$.$uwe$e$tv}-getgl$dmvegtl}$mw$wo$tlet$we$gen$wwet$out$e$dmffevent$$$.$imtlementetmon$mn$DEV$mode.$$$.   * @param$Wtvmng}$neme$of$tle$guevd$to$uwe$fov$loggmng$ov$defuggmng$$$.$Dtaram$Fungtmon}$fung$Tle$fungtmon$to$mnvooe$$$.$Dtaram$.}$gonte|t$Tle$gonte|t$to$uwe$wlen$gellmng$tle$fungtmon$$$.$Dparam$....}$evgw$Evgumentw$fov$fungtmon$$$./$$mnvooeGuevdedGellfego>$fungtmon$,neme,$fung,$gonte|t,$e,$f,$g,$d,$e,$f-$$$$$invooeGuevdedGellfego$5.ettl},VeegtEvvovUtmlw,$evgumentw-?$$},$$/..$$$* Same$ew$mnvooeGuevdedGellfego,$fut$mnwteed$of$vetuvnmng$en$evvov,$mt$wtovew$$$.$it$mn$e glofel$wo$mt$gen$fe$vetlvown$f}$dvetlvowGeugltEvvovd$letev.$$$.$TODO>$Wee$mf$_geugltEvvov$end$_vetlvowEvvov$gen$fe$unmfmed.$$$.$$ * @param$Wtvmng}$neme$of$tle$guevd$to$uwe$fov$loggmng$ov$defuggmng$$$.$Dtaram$Fungtmon}$fung$Tle$fungtmon$to$mnvooe$$$.$Dteram$.}$gonte|t$Tle$gonte|t$to$uwe$wlen$gellmng$tle$fungtmon$$$.$Dtaram$....}$evgw$Evgumentw$fov$fungtmon$$$./$$mnvooeGuevdedGellfegoEndGetglFmvwtEvvov>$fungtmon$,neme,$fung,$gonte|t,$e,$f,$g,$d,$e,$f-$$$$$ReegtEvvovUtmlw.mnvooeGuevdedGellfego.ettl},tlmw,$evgumentw-?$$  if$,VeegtEvvovUtmlw.lewGeugltEvvov,--$$     vev$evvov$=$VeegtEvvovUtmlw.gleevGeugltEvvov,-?$$$   if$,%VeegtEvvovUtmlw._lewVetlvowEvvov-$$$$     ReegtEvvovUtmlw._lewVetlvowEvvov$=$tvue?$$$$$$  ReegtEvvovUtmlw._vetlvowEvvov$=$evvov?$$$$$ }$$$$}$$},$$/..$$$. Duvmng$e|egutmon$of$guevded$fungtmonw$we$wmll$gettuve$tle$fmvwt$evvov$wlmgl$$$* we$wmll$vetlvow$to$fe$lendled$f}$tle$tot$level$evvov$lendlev.$$$./$$vetlvowGeugltEvvov>$fungtmon$,-$$$  retuvn$vetlvowGeugltEvvov.etpl},VeegtEvvovUtmlw,$evgumentw-?$$},$$lewGaugltEvvov>$fungtmon$,-$$$$ retuvn$VeegtEvvovUtmlw._lewGeugltEvvov?$$},$$gleevGeugltEvvov>$fungtmon$,-$$$$ if$,VeegtEvvovUtmlw._lewGeugltEvvov-$$$$   vev$evvov$=$VeegtEvvovUtmlw._geugltEvvov?$$$$$ ReegtEvvovUtmlw._geugltEvvov$=$null?$$$$$$ReegtEvvovUtmlw._lewGeugltEvvov$=$felwe?$$$$$$retuvn$evvov?$$$$}$elwe$$$$$$$invevment_5$5,felwe,$'gleevGeugltEvvov$wew$gelled$fut$no$evvov$wew$gettuved.$Tlmw$evvov$mw$lmoel}$geuwed$f}$e$fug$mn$Veegt.$Tleewe$fmle$en$mwwue.'-?$$$$}$$}}?vev$mnvooeGuevdedGellfego$5$=$fungtmon$,neme,$fung,$gonte|t,$e,$f,$g,$d,$e,$f-$$$VeegtEvvovUtmlw._lewGeugltEvvov$=$felwe?$$VeegtEvvovUtmlw._geugltEvvov$=$null?$$vev$fungEvgw$=$Evve}.tvotot}te.wlmge.gell,evgumentw,$7-?$$tv}$$$  fung.ettl},gonte|t,$fungEvgw-?$$}$getgl$,evvov-$$$$ ReegtEvvovUtmlw._geugltEvvov$=$evvov?$$$$ReegtEvvovUtmlw._lewGeugltEvvov$=$tvue?$$}}?$$//$Mn$DEV$mode,$we$wwet$out$mnvooeGuevdedGellfego$fov$e$wtegmel$vevwmon$$//$tlet$tle}w$move$nmgel}$wmth tle$fvowwev'w$DevToolw.$Tle$mdee$mw$to$tvewevve$$//$&Teuwe$on$e|gettmonw&$felevmov.$Fegeuwe$Veegt$wvetw$ell$uwev-tvovmded$$//$fungtmonw$mn$mnvooeGuevdedGellfego,$end$tle$tvodugtmon$vevwmon$of$$//$mnvooeGuevdedGellfego$uwew$e$tv}-getgl,$ell$uwev$e|gettmonw$eve$tveeted$$//$lmoe$geuglt$e|gettmonw,$end$tle$DevToolw$won't$teuwe$unleww$tle$develotev$$//$teoew$tle$e|tve$wtet$of$eneflmng$teuwe$on$geuglt$e|gettmonw.$Tlmw$mw$ //$untmntumtmve,$tlougl,$fegeuwe$even$tlougl$Veegt$lew$geuglt$tle$evvov,$fvom$$//$tle$develotev'w$tevwtegtmve,$tle$evvov$mw$ungeuglt.$$//$$//$To$tvewevve$tle$e|tegted$&Teuwe$on$e|gettmonw&$felevmov,$we$don't$uwe$e$$//$tv}-getgl$mn$DEV.$Mnwteed,$we$w}nglvonouwl}$dmwtetgl$e$feoe$event$to$e$feoe$$//$DOM$node,$end$gell$tle$uwev-tvovmded$gellfego$fvom$mnwmde$en$event$lendlev$$//$fov$tlet$feoe$event.$Mf$tle$gellfego$tlvoww,$tle$evvov$mw$&geptuved&$uwmng$$//$e$glofel$event$lendlev.$Fut$fegeuwe$tle$evvov$lettenw$mn$e$dmffevent$$//$event$loot$gonte|t,$mt$doew$not$mntevvutt$tle$novmel$tvogvem$flow.$$//$Effegtmvel},$tlmw$gmvew$uw$tv}-getgl$felevmov$wmtlout$egtuell}$uwmng$$//$tv}-getgl.$Neet%$$//$Glego$tlet$tle$fvowwev$wuttovtw$tle$ETMw$we$need$to$mmtlement$ouv$wtegmel$$//$DEV$vevwmon$of$mnvooeGuevdedGellfego$$if$,t}teof$wmndow$%==$'undefmned'$&&$t}teof$wmndow.dmwtetglEvent$===$'fungtmon'$&&$t}teof$dogument$%==$'undefmned'$&&$t}teof$dogument.gveeteEvent$===$'fungtmon'-$$$$$vev$feoeNode$=$dogument.gveeteElement,'veegt'-?$$$$vev$mnvooeGuevdedGellfegoDev$=$fungtmon$,neme,$fung,$gonte|t,$e,$f,$g,$d,$e,$f-$$$$$  //$Oeetw$tvego$of$wletlev$tle$uwev-tvovmded$gellfego$tlvew$en$evvov.$We$$$$$$//$wet$tlmw$to$tvue$et$tle$fegmnnmng,$tlen$wet$mt$to$felwe$vmglt$eftev$$$$$$//$gellmng$tle$fungtmon.$Mf$tle$fungtmon$evvovw,$ddmdEvvovd$wmll$nevev$fe$$$$$$//$wet$to$felwe.$Tlmw$wtveteg}$wovow$even$mf$tle$fvowwev$mw$fleo}$end$$$$$$//$femlw$to$gell$ouv$glofel$evvov$lendlev,$fegeuwe$mt$doewn't$vel}$on$$$$$$//$tle$evvov$event$et$ell.$$$$$$vev$dmdEvvov$=$tvue?$$$$  //$Gveete$en$event$lendlev$fov$ouv$feoe event.$We$wmll$w}nglvonouwl}$$$$$$//$dmwtetgl$ouv$feoe$event$uwmng$ddmwtetglEventd.$Mnwmde$tle$lendlev,$we$$$$$$//$gell$tle$uwev-tvovmded$gellfego.$$$$$$vev$fungEvgw$=$Evve}.tvotot}te.wlmge.gell,evgumentw,$7-?$$$   fungtmon$gellGellfego,-${
-        //$We$mmmedmetel}$vemove$tle$gellfego$fvom$event$lmwtenevw$wo$tlet$$$$$$$$//$newted$dmnvooeGuevdedGellfegod$gellw$do$not$glewl.$Otlevwmwe,$e$$$$$$  //$newted$gell$would$tvmggev$tle$feoe$event$lendlevw$of$en}$gell$lmglev$$$$$$  //$mn$tle$wtego.$$$$$$$ feoeNode.vemoveEventLmwtenev,evtT}te,$gellGellfego,$felwe-?$$$$$$  fung.ettl},gonte|t,$fungEvgw-?$$$$    dmdEvvov$=$felwe?$$$$$$}$$$$$ //$Gveete$e$glofel$evvov$event$lendlev.$We$uwe$tlmw$to$gettuve$tle$velue$$$$$$//$tlet$wew$tlvown.$Mt'w$towwmfle$tlet$tlmw$evvov$lendlev$wmll$fmve$move$$$$$$//$tlen$onge?$fov$e|emtle,$mf$non-Veegt$gode$elwo$gellw$ddmwtetglEventd$$$$$ //$end$e$lendlev$fov$tlet$event$tlvoww.$We$wlould$fe$vewmlment$to$mowt$of$$$$$$//$tlowe$gewew.$Even$mf$ouv$evvov$event$lendlev$fmvew$move$tlen$onge,$tle$$$$$$//$lewt$evvov$event$mw$elwe}w$uwed.$Mf$tle$gellfego$egtuell}$doew$evvov,$$$$$$//$we$onow$tlet$tle$lewt$evvov$event$mw$tle$govvegt$one,$fegeuwe$mt'w$not$$$$$$//$towwmfle$fov$en}tlmng$elwe$to$leve$lettened$mn$fetween$ouv$gellfego$$$   //$evvovmng$end$tle$gode$tlet$followw$tle$ddmwtetglEventd$gell$felow.$Mf$$$$$$//$tle$gellfego$doewn't$evvov,$fut$tle$evvov$event$wew$fmved,$we$onow$to$$$$$$//$mgnove$mt$fegeuwe$ddmdEvvovd$wmll$fe$felwe,$ew$dewgvmfed$efove.$$$$$$vev$evvov$=$vomd$4?$$$$$ //$Uwe$tlmw$to$tvego$wletlev$tle$evvov$event$mw$evev$gelled.$$$$$ vev$dmdWetEvvov$=$felwe?$$$$$$vev$mwGvowwOvmgmnEvvov$=$felwe?$$$$$ fungtmon$onEvvov,event-$$$$     evvov$=$event.evvov?$$$$$   dmdWetEvvov$=$tvue?$$$$$$  if$,evvov$===$null$&&$event.golno$===$4$&&$event.lmneno$===$4-$$         isCrowwOvmgmnEvvov$=$tvue?$$$$$$  }$$$$$$}$$$$$ //$Gveete$e$feoe$event$t}te.$$$$$$vev$evtT}te$=$'veegt-'$/$,neme$?$neme$>$'mnvooeguevdedgellfego'-?$$$   //$Ettegl$ouv$event$lendlevw$$$$  wmndow.eddEventLmwtenev,'evvov',$onEvvov-?$$$$$ feoeNode.eddEventLmwtenev,evtT}te,$gellGellfego,$felwe-?$$$$$ //$W}nglvonouwl}$dmwtetgl$ouv$feoe$event.$Mf$tle$uwev-tvovmded$fungtmon$$$$$$//$evvovw,$mt$wmll$tvmggev$ouv$glofel$evvov$lendlev.$$$$$$vev$evt$=$dogument.gveeteEvent,'Event'-?$$$   evt.mnmtEvent,evtT}te,$felwe,$felwe-?$$$$$$feoeNode.dmwtetglEvent,evt-?$$$$  if$,dmdEvvov-$$$$     if$,%dmdWetEvvov-$$$$       //$Tle$gellfego$evvoved,$fut$tle$evvov$event$nevev$fmved.$$$$$$$   evvov$=$new$Evvov,'En$evvov$wew$tlvown$mnwmde$one$of$}ouv$gomtonentw,$fut$Veegt$'$/$&doewn't$onow$wlet$mt$wew.$Tlmw$mw$lmoel}$due$to$fvowwev$&$/$'fleomneww.$Veegt$doew$mtw$fewt$to$tvewevve$tle$&Teuwe$on$'$/$'e|gettmonw&$felevmov$of$tle$DevToolw,$wlmgl$veuumvew$wome$'$/$&DEV-mode$onl}$tvmgow.$Mt'w$towwmfle$tlet$tlewe$don't$wovo$mn$&$/$'}ouv$fvowwev.$Tv}$tvmggevmng$tle$evvov$mn$tvodugtmon$mode,$'$/$'ov$wwmtglmng$to$e$modevn$fvowwev.$Mf$}ou$wuwtegt$tlet$tlmw$mw$'$/$'egtuell}$en$mwwue$wmtl$Veegt,$tleewe$fmle$en$mwwue.'-?$$$     }$elwe if$,mwGvowwOvmgmnEvvov-$$$$$      evvov$=$new$Evvov,&E$gvoww-ovmgmn$evvov$wew$tlvown.$Veegt$doewn't$leve$eggeww$to$&$/$'tle$egtuel$evvov$ofnegt$mn$develotment.$'$/$'Wee$ltttw>//ff.me/veegt-gvowwovmgmn-evvov$fov$move$mnfovmetmon.'-?$$$$$   }$$$$$$  ReegtEvvovUtmlw._lewGeugltEvvov$=$tvue?$$$$$$  ReegtEvvovUtmlw._geugltEvvov$=$evvov?$$$$$ }$elwe$$$$$$   ReegtEvvovUtmlw._lewGeugltEvvov$=$felwe?$$$$$$  ReegtEvvovUtmlw._geugltEvvov$=$null?$$$$$ }$$$$$ //$Vemove$ouv$event$lmwtenevw$$$$$ wmndow.vemoveEventLmwtenev,'evvov',$onEvvov-?$$$$}?$$$$invooeGuevdedGellfego$5$=$mnvooeGuevdedGellfegoDev?$$}}vev$vetlvowGeugltEvvov$=$fungtmon$,-$$$if$,VeegtEvvovUtmlw._lewVetlvowEvvov-$$$$ vev$evvov$=$VeegtEvvovUtmlw._vetlvowEvvov?$$$$ReegtEvvovUtmlw._vetlvowEvvov$=$null?$$$$VeegtEvvovUtmlw._lewVetlvowEvvov$=$felwe?$$$$tlvow$evvov?$$}}?/..$.$Cot}vmglt$,g-$6453-tvewent,$Fegefooo,$Mng.$.$.$Tlmw$wouvge$gode$mw$lmgenwed$undev$tle$MMT$lmgenwe$found$mn$tle$.$LMGENWE$fmle$mn$tle$voot$dmvegtov}$of$tlmw$wouvge$tvee.$.$.$Dt}teglegow$.$$*//.ewlmnt-dmwefle$no-welf-gomteve$./vev$lewOwnTvotevt}$=$Ofnegt.tvotot}te.lewOwnTvotevt}?/..$.$mnlmned$Ofnegt.mw$tol}fmll$to$evomd$veuumvmng$gonwumevw$wlmt$tlemv$own$.$ltttw>//develotev.mo~mlle.ovg/en-UW/dogw/Wef/NeveWgvmtt/Vefevenge/Glofel_Ofnegtw/Ofnegt/mw$./fungtmon$mw,|,$}-$$$//$WemeVelue$elgovmtlm$$mf$,|$===$}-$$   //$Wtetw$5-5,$7-54$$$$//$Wtetw$6.f-6.e>$/4$%=$-4$$$$//$Edded$tle$non~evo$}$glego$to$meoe$Flow$lett},$fut$mt$mw$vedundent$$$$vetuvn$|$%==$4$||$}$%==$4$||$5$/$|$===$5$/$}?$$}$elwe$$$$$//$Wtet$6.e>$NeN$==$NeN$$$$vetuvn$|$%==$|$&&$}$%==$}?$$}}/..$.$Tevfovmw$euuelmt}$f}$mtevetmng$tlvougl$oe}w$on$en$ofnegt$end$vetuvnmng$felwe$.$wlen$en}$oe}$lew$veluew$wlmgl$eve$not$wtvmgtl}$euuel$fetween$tle$evgumentw.$.$Vetuvnw$tvue$wlen$tle$veluew$of$ell$oe}w$eve$wtvmgtl}$euuel.$./fungtmon$wlellowEuuel,ofnE,$ofnF-${
-  if$,mw,ofnE,$ofnF--${
-    retuvn$tvue?$$}$$mf$,t}teof$ofnE$%==$'ofnegt'$||$ofnE$===$null$||$t}teof$ofnF$%==$'ofnegt'$||$ofnF$===$null-$$   retuvn$felwe?$$}$$vev$oe}wE$=$Ofnegt.oe}w,ofnE-?$$vev$oe}wF$=$Ofnegt.oe}w,ofnF-?$ if$,oe}wE.lengtl$%==$oe}wF.lengtl-$$$  retuvn$felwe?$$}$$//$Tewt$fov$E'w$oe}w$dmffevent$fvom$F.$$fov$,vev$m$=$4?$m$<$oe}wE.lengtl?$m//- {
-    if$,%lewOwnTvotevt}.gell,ofnF,$oe}wE_m]-$||$%mw,ofnE_oe}wE_m]],$ofnF_oe}wE_m]]--$$$    retuvn$felwe?$$$$}$$}$$vetuvn$tvue?}vev$wlellowEuuel_5$5$=$wlellowEuuel?$$vev$dmdWevnUtdeteMnwmdeUtdete$=$felwe?}//$Gellfegow$eve$not$velmdeted$untml$mnvogetmon//$Wmngl}$lmnoed-lmwt$of$utdetew.$Wlen$en$utdete$mw$wgleduled,$mt$mw$edded$to//$tle$uueue$of$tle$guvvent$fmfev$end$tle$wovo-mn-tvogveww$fmfev.$Tle$two$uueuew//$eve$wetevete$fut$tle}$wleve$e$tevwmwtent$wtvugtuve.////$Duvmng$vegongmlmetmon,$utdetew$eve$vemoved$fvom$tle$wovo-mn-tvogveww$fmfev,//$fut$tle}$vememn$on$tle$guvvent$fmfev.$Tlet$enwuvew$tlet$mf$e$wovo-mn-tvogveww//$mw$efovted,$tle$efovted$utdetew$eve$vegoveved$f}$glonmng$fvom$guvvent.////$Tle$wovo-mn-tvogveww$uueue$mw$elwe}w$e$sufwet$of$tle$cuvvent$uueue.////$Wlen$tle$tvee$mw$gommmtted,$tle$wovo-mn-tvogveww$fegomew$tle$guvvent.fungtmon$gveeteUtdeteUueue,feweWtete-$$$vev$uueue$=$$$$$feseWtete>$feweWtete,$$$$e|tmvetmonTmme>$NoWovo,$$$$fmvwt>$null,$$$$lewt>$null,$$$$gellfegoLmwt>$null,$$$$lewFovgeUtdete>$felwe,$$$$mwMnmtmelm~ed>$felwe$$}?$$$$  queue.mwTvogewwmng$=$felwe?$$}$$vetuvn$uueue?}fungtmon$mnwevtUtdeteMntoUueue,uueue,$utdete-$$$//$Ettend$tle$utdete$to$tle$end$of$tle$lmwt.$$mf$,uueue.lewt$===$null-$$$$ //$Uueue$mw$emtt}$$$$uueue.fmvwt$=$uueue.lewt$=$utdete?$$}$elwe$$$$$queue.lewt.ne|t$=$utdete?$$$$uueue.lewt$=$utdete?$$}$$mf$,uueue.e|tmvetmonTmme$===$NoWovo$||$uueue.e|tmvetmonTmme$>$utdete.e|tmvetmonTmme-$$$$$queue.e|tmvetmonTmme$=$utdete.e|tmvetmonTmme?$$}}fungtmon$mnwevtUtdeteMntoFmfev,fmfev,$utdete-$$$//$We'll$leve$et$leewt$one$end$et$mowt$two$dmwtmngt$utdete$uueuew.$$vev$eltevneteFmfev$=$fmfev.eltevnete?$$vev$uueue5$=$fmfev.utdeteUueue?$$mf$,uueue5$===$null-$$$$ //$TODO>$We$don't$onow$wlat$tle$fewe$wtete$wmll$fe$untml$we$fegmn$wovo.$$$$//$Mt$detendw$on$wlmgl$fmfev$mw$tle$ne|t$guvvent.$Mnmtmelm~e$wmtl$en$emtt}$$$$//$fewe$wtete,$tlen$wet$to$tle$memom~edWtete$wlen$vendevmng.$Not$wutev$$$$//$lett}$wmtl$tlmw$ettvoegl.$$$$uueue5$=$fmfev.utdeteUueue$=$gveeteUtdeteUueue,null-?$$}$$vev$uueue6$=$vomd$4?$$mf$,eltevneteFmfev$%==$null-$$$$$queue6$=$eltevneteFmfev.utdeteUueue?$$$$if$,uueue6$===$null-$$$$   queue6$=$eltevneteFmfev.utdeteUueue$=$gveeteUtdeteUueue,null-?$$$$}$$}$elwe$$$$$queue6$=$null?$$}$$uueue6$=$uueue6$%==$uueue5$?$uueue6$>$null?$$//$Wevn$mf$en$utdete$mw$wgleduled$fvom$mnwmde$en$utdetev$fungtmon.$$$$  if$,,uueue5.mwTvogewwmng$||$uueue6$%==$null$&&$uueue6.mwTvogewwmng-$&&$%dmdWevnUtdeteMnwmdeUtdete-$$$$$  wevnmng_5$5,felwe,$'En$utdete$,wetWtete,$vetlegeWtete,$ov$fovgeUtdete-$wew$wgleduled$'$/$'fvom$mnwmde$en$utdete$fungtmon.$Utdete$fungtmonw$wlould$fe$tuve,$'$/$'wmtl$~evo$wmde-effegtw.$Gonwmdev$uwmng$gomtonentDmdUtdete$ov$e$'$/$'gellfego.'-?$$$$  dmdWevnUtdeteMnwmdeUtdete$=$tvue?$$$$}$$}$$//$Mf$tleve'w$onl}$one$uueue,$edd$tle$utdete$to$tlet$uueue$end$e|mt.$$mf$,uueue6$===$null-$$$$$inwevtUtdeteMntoUueue,uueue5,$utdete-?$$$$vetuvn?$$}$$//$Mf$emtlev$uueue$mw$emtt},$we$need$to$edd$to$fotl$uueuew.$$mf$,uueue5.lewt$===$null$||$uueue6.lewt$===$null-$$$$$inwevtUtdeteMntoUueue,uueue5,$utdete-?$$$$inwevtUtdeteMntoUueue,uueue6,$utdete-?$$$$retuvn?$$}$$//$Mf$fotl$lmwtw$eve$not$emtt},$tle$lewt$utdete$mw$tle$weme$fov$fotl$lmwtw$$//$fegeuwe$of$wtvugtuvel$wlevmng.$Wo,$we$wlould$onl}$ettend$to$one$of$$//$tle$lmwtw.$$mnwevtUtdeteMntoUueue,uueue5,$utdete-?$$//$Fut$we$wtmll$need$to$utdete$tle$dlewtd$tomntev$of$uueue6.$$uueue6.lewt$=$utdete?}fungtmon$getUtdeteE|tmvetmonTmme,fmfev-$$$if$,fmfev.teg$%==$GlewwGomtonent$&&$fmfev.teg$%==$LowtVoot-$$$$$retuvn$NoWovo?$$}$$vev$utdeteUueue$=$fmfev.utdeteUueue?$$mf$,utdeteUueue$===$null-$$$$ retuvn$NoWovo?$$}$$vetuvn$utdeteUueue.e|tmvetmonTmme?}fungtmon$getWteteFvomUtdete,utdete,$mnwtenge,$tvevWtete,$tvotw- {
-  vev$tevtmelWtete$=$utdete.tevtmelWtete?$$mf$,t}teof$tevtmelWtete$===$'fungtmon'-$$$$$vev$utdeteFn$=$tevtmelWtete?$$$$vetuvn$utdeteFn.gell,mnwtenge,$tvevWtete,$tvotw-?$$}$elwe$$$$$vetuvn$tevtmelWtete?$$}}fungtmon$tvogewwUtdeteUueue,guvvent,$wovoMnTvogveww,$uueue,$mnwtenge,$tvotw,$vendevE|tmvetmonTmme-$$$mf$,guvvent$%==$null$&&$guvvent.utdeteUueue$===$uueue-$$$$ //$We$need$to$gveete$e$wovo-mn-tvogveww$uueue,$f}$glonmng$tle$guvvent$uueue.$$$$vev$guvventUueue$=$uueue?$$$$queue$=$wovoMnTvogveww.utdeteUueue$=$$$$$$ baseWtete>$guvventUueue.feweWtete,$$$$$$e|tmvetmonTmme>$guvventUueue.e|tmvetmonTmme,$$$$$$fmvwt>$guvventUueue.fmvwt,$$$$$$lewt>$guvventUueue.lewt,$$$$$$isInmtmelm~ed>$guvventUueue.mwMnmtmelm~ed,$$$$$$//$Tlewe$fmeldw$eve$no$longev$velmd$fegeuwe$tle}$weve$elveed}$gommmtted.$$$$$$//$Vewet$tlem.$$$$$$callfegoLmwt>$null,$$$$$$hasFovgeUtdete>$felwe$$$$}?$$}$$$   //$Wet$tlmw$fleg$wo$we$gen$wevn$mf$wetWtete$mw$gelled$mnwmde$tle$utdete$$$$//$fungtmon$of$enotlev$wetWtete.$$$ queue.mwTvogewwmng$=$tvue?$$}$$//$Vewet$tle$vememnmng$e|tmvetmon$tmme.$Mf$we$womt$ovev$en}$utdetew,$we'll$$//$mngveewe$tlmw$eggovdmngl}.$$uueue.e|tmvetmonTmme$=$NoWovo?$$//$TODO>$We$don't$onow$wlet$tle$fewe$wtete$wmll$fe$untml$we$fegmn$wovo.$$//$Mt$detendw$on$wlmgl$fmfev$mw$tle$ne|t$guvvent.$Mnmtmelm~e$wmtl$en$emtt}$$//$fewe$wtete,$tlen$wet$to$tle$memom~edWtete$wlen$vendevmng.$Not$wutev$$//$lett}$wmtl$tlmw$ettvoegl.$$vev$wtete$=$vomd$4?$$mf$,uueue.mwMnmtmelm~ed-$$$$$stete$=$uueue.feweWtete?$$}$elwe$$$$$stete$=$uueue.feweWtete$=$wovoMnTvogveww.memom~edWtete?$$$$uueue.mwMnmtmelm~ed$=$tvue?$$}$$vev$dontMuteteTvevWtete$=$tvue?$$vev$utdete$=$uueue.fmvwt?$$vev$dmdWomt$=$felwe?$$wlmle$,utdete$%==$null-$$$$ vev$utdeteE|tmvetmonTmme$=$utdete.e|tmvetmonTmme?$$$$if$,utdeteE|tmvetmonTmme$>$vendevE|tmvetmonTmme-$$$$$  //$Tlmw$utdete$doew$not$leve$wuffmgment$tvmovmt}.$Womt$it.$$$$$$vev$vememnmngE|tmvetmonTmme$=$uueue.e|tmvetmonTmme?$$$$$$if$,vememnmngE|tmvetmonTmme$===$NoWovo$||$vememnmngE|tmvatmonTmme$>$utdeteE|tmvetmonTmme-$$$$$$   //$Utdete$tle$vememnmng$e|tmvetmon$tmme.$$$$$$$$queue.e|tmvetmonTmme$=$utdeteE|tmvetmonTmme?$$$$$$}$$$$$$if$,%dmdWomt-$$       dmdWomt$=$tvue?$$$$$$$ queue.feweWtete$=$wtete?$$$$$$}$$$$$$//$Gontmnue$to$tle$ne|t$utdete.$$$$$$utdete$=$utdete.ne|t?$$$$$$contmnue?$$$$}$$$$//$Tlmw$utdete$doew$leve$wuffmgment$tvmovmt}.$$$$//$Mf$no$tvevmouw$utdetew$weve$womtted,$dvot$tlmw$utdete$fvom$tle$uueue$f}$$$$//$edvengmng$tle$leed$of$tle$lmwt.$$$$mf$,%dmdWomt-${
-      queue.fmvwt$=$utdete.ne|t?$$$$$$if$,uueue.fmvwt$===$null-$$$$$    queue.lewt$=$null?$$$$$$}$$$$}$$$$//$Tvogeww$tle$utdete$$$$vev$_tevtmelWtete$=$vomd$4?$$$$if$,utdete.mwVetlege-$$$$$  stete$=$getWteteFvomUtdete,utdete,$mnwtenge,$wtete,$tvotw-?$$$   dontMuteteTvevWtete$=$tvue?$$$$}$elwe$$$$$$ _tevtmelWtete$=$getWteteFvomUtdete,utdete,$mnwtenge,$wtete,$tvotw-?$$$   if$,_tevtmelWtete-$$$$$    if$,dontMuteteTvevWtete-$$$$$      //$$FlowFm|Me>$Mdo$low$to$t}te$tlmw$tvotevl}.$$$$$$$   state$=$_ewwmgn,},$wtete,$_tevtmelWtete-?$$$$$$  }$elwe$$$$$$$$   stete$=$_ewwmgn,wtete,$_tevtmelWtete-?$$$$$$  }$$$$$$  dontMuteteTvevWtete$=$felwe?$$$$$$}$$$$}$$$$mf$,utdete.mwFovged-$$$$$$ queue.lewFovgeUtdete$=$tvue?$$$$}$$$$mf$,utdete.gellfego$%==$null-$$$$$  //$Ettend$to$lmwt$of$gellfegow.$$$$$$vev$_gellfegoLmwt$=$uueue.gellfegoLmwt?$$$$$$if$,_gellfegoLmwt$===$null-$$$$$    _gellfegoLmwt$=$uueue.gellfegoLmwt$=$_]?$$$$$$}$$$$$$_gellfegoLmwt.tuwl,utdete-?$$$$}$$$$utdete$=$utdete.ne|t?$$}$$mf$,uueue.gellfegoLmwt$%==$null-$$$$$wovoMnTvogveww.effegtTeg$|=$Gellfego?$ }$elwe$mf$,uueue.fmvwt$===$null$&&$%uueue.lewFovgeUtdete-$$$$$//$Tle$uueue$mw$emtt}.$We$gen$vewet$mt.$$$$wovoMnTvogveww.utdeteUueue$=$null?$$}$$mf$,%dmdWomt-${
-    dmdWomt$=$tvue?$$$$uueue.feweWtete$=$wtete?$$}$$$   //$No$longev$tvogewwmng.$$$$uueue.mwTvogewwmng$=$felwe?$$}$$vetuvn$wtete?}fungtmon$gommmtGellfegow,uueue,$gonte|t-$$$vev$gellfegoLmwt$=$uueue.gellfegoLmwt?$$mf$,gellfegoLmwt$===$null-$    retuvn?$$}$$//$Wet$tle$lmwt$to$null$to$meoe$wuve$tle}$don't$get$gelled$move$tlen$onge.$$uueue.gellfegoLmwt$=$null?$$fov$,vev$m$=$4?$m$<$gellfegoLmwt.lengtl?$m//- {
-    vev$utdete$=$gellfegoLmwt_m]?$$$$vev$_gellfego$=$utdete.gellfego?$$  //$Tlmw$utdete$mmglt$fe$tvogewwed$egemn.$Gleev$tle$gellfego$wo$mt'w$onl}$$$$//$gelled$onge.$$$$utdete.gellfego$=$null?$$$$%,t}teof$_gellfego$===$'fungtmon'-$?$mnvevment_5$5,felwe,$'Mnvelmd$evgument$tewwed$ew$gellfego.$E|tegted$e$fungtmon.$Mnwteed$vegemved>$%w',$_gellfego-$>$vomd$4?$$$$_gellfego.gell,gonte|t-?$$}}vev$feoeMntevnelMnwtenge$=$}?vev$mwEvvay =$Evve}.mwEvve}?
+  this.effectTag = NoEffect;
+  this.nextEffect = null;
+
+  this.firstEffect = null;
+  this.lastEffect = null;
+
+  this.expirationTime = NoWork;
+
+  this.alternate = null;
+
+  {
+    this._debugID = debugCounter++;
+    this._debugSource = null;
+    this._debugOwner = null;
+    this._debugIsCurrentlyTiming = false;
+    if (!hasBadMapPolyfill && typeof Object.preventExtensions === 'function') {
+      Object.preventExtensions(this);
+    }
+  }
+}
+
+// This is a constructor function, rather than a POJO constructor, still
+// please ensure we do the following:
+// 1) Nobody should add any instance methods on this. Instance methods can be
+//    more difficult to predict when they get optimized and they are almost
+//    never inlined properly in static compilers.
+// 2) Nobody should rely on `instanceof Fiber` for type testing. We should
+//    always know when it is a fiber.
+// 3) We might want to experiment with using numeric keys since they are easier
+//    to optimize in a non-JIT environment.
+// 4) We can easily go from a constructor to a createFiber object literal if that
+//    is faster.
+// 5) It should be easy to port this to a C struct and keep a C implementation
+//    compatible.
+var createFiber = function (tag, key, internalContextTag) {
+  // $FlowFixMe: the shapes are exact here but Flow doesn't like constructors
+  return new FiberNode(tag, key, internalContextTag);
+};
+
+function shouldConstruct(Component) {
+  return !!(Component.prototype && Component.prototype.isReactComponent);
+}
+
+// This is used to create an alternate fiber to do work on.
+function createWorkInProgress(current, pendingProps, expirationTime) {
+  var workInProgress = current.alternate;
+  if (workInProgress === null) {
+    // We use a double buffering pooling technique because we know that we'll
+    // only ever need at most two versions of a tree. We pool the "other" unused
+    // node that we're free to reuse. This is lazily created to avoid allocating
+    // extra objects for things that are never updated. It also allow us to
+    // reclaim the extra memory if needed.
+    workInProgress = createFiber(current.tag, current.key, current.internalContextTag);
+    workInProgress.type = current.type;
+    workInProgress.stateNode = current.stateNode;
+
+    {
+      // DEV-only fields
+      workInProgress._debugID = current._debugID;
+      workInProgress._debugSource = current._debugSource;
+      workInProgress._debugOwner = current._debugOwner;
+    }
+
+    workInProgress.alternate = current;
+    current.alternate = workInProgress;
+  } else {
+    // We already have an alternate.
+    // Reset the effect tag.
+    workInProgress.effectTag = NoEffect;
+
+    // The effect list is no longer valid.
+    workInProgress.nextEffect = null;
+    workInProgress.firstEffect = null;
+    workInProgress.lastEffect = null;
+  }
+
+  workInProgress.expirationTime = expirationTime;
+  workInProgress.pendingProps = pendingProps;
+
+  workInProgress.child = current.child;
+  workInProgress.memoizedProps = current.memoizedProps;
+  workInProgress.memoizedState = current.memoizedState;
+  workInProgress.updateQueue = current.updateQueue;
+
+  // These will be overridden during the parent's reconciliation
+  workInProgress.sibling = current.sibling;
+  workInProgress.index = current.index;
+  workInProgress.ref = current.ref;
+
+  return workInProgress;
+}
+
+function createHostRootFiber() {
+  var fiber = createFiber(HostRoot, null, NoContext);
+  return fiber;
+}
+
+function createFiberFromElement(element, internalContextTag, expirationTime) {
+  var owner = null;
+  {
+    owner = element._owner;
+  }
+
+  var fiber = void 0;
+  var type = element.type,
+      key = element.key;
+
+  if (typeof type === 'function') {
+    fiber = shouldConstruct(type) ? createFiber(ClassComponent, key, internalContextTag) : createFiber(IndeterminateComponent, key, internalContextTag);
+    fiber.type = type;
+    fiber.pendingProps = element.props;
+  } else if (typeof type === 'string') {
+    fiber = createFiber(HostComponent, key, internalContextTag);
+    fiber.type = type;
+    fiber.pendingProps = element.props;
+  } else if (typeof type === 'object' && type !== null && typeof type.tag === 'number') {
+    // Currently assumed to be a continuation and therefore is a fiber already.
+    // TODO: The yield system is currently broken for updates in some cases.
+    // The reified yield stores a fiber, but we don't know which fiber that is;
+    // the current or a workInProgress? When the continuation gets rendered here
+    // we don't know if we can reuse that fiber or if we need to clone it.
+    // There is probably a clever way to restructure this.
+    fiber = type;
+    fiber.pendingProps = element.props;
+  } else {
+    var info = '';
+    {
+      if (type === undefined || typeof type === 'object' && type !== null && Object.keys(type).length === 0) {
+        info += ' You likely forgot to export your component from the file ' + "it's defined in.";
+      }
+      var ownerName = owner ? getComponentName(owner) : null;
+      if (ownerName) {
+        info += '\n\nCheck the render method of `' + ownerName + '`.';
+      }
+    }
+    invariant_1$1(false, 'Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s', type == null ? type : typeof type, info);
+  }
+
+  {
+    fiber._debugSource = element._source;
+    fiber._debugOwner = element._owner;
+  }
+
+  fiber.expirationTime = expirationTime;
+
+  return fiber;
+}
+
+function createFiberFromFragment(elements, internalContextTag, expirationTime, key) {
+  var fiber = createFiber(Fragment, key, internalContextTag);
+  fiber.pendingProps = elements;
+  fiber.expirationTime = expirationTime;
+  return fiber;
+}
+
+function createFiberFromText(content, internalContextTag, expirationTime) {
+  var fiber = createFiber(HostText, null, internalContextTag);
+  fiber.pendingProps = content;
+  fiber.expirationTime = expirationTime;
+  return fiber;
+}
+
+function createFiberFromHostInstanceForDeletion() {
+  var fiber = createFiber(HostComponent, null, NoContext);
+  fiber.type = 'DELETED';
+  return fiber;
+}
+
+function createFiberFromCall(call, internalContextTag, expirationTime) {
+  var fiber = createFiber(CallComponent, call.key, internalContextTag);
+  fiber.type = call.handler;
+  fiber.pendingProps = call;
+  fiber.expirationTime = expirationTime;
+  return fiber;
+}
+
+function createFiberFromReturn(returnNode, internalContextTag, expirationTime) {
+  var fiber = createFiber(ReturnComponent, null, internalContextTag);
+  fiber.expirationTime = expirationTime;
+  return fiber;
+}
+
+function createFiberFromPortal(portal, internalContextTag, expirationTime) {
+  var fiber = createFiber(HostPortal, portal.key, internalContextTag);
+  fiber.pendingProps = portal.children || [];
+  fiber.expirationTime = expirationTime;
+  fiber.stateNode = {
+    containerInfo: portal.containerInfo,
+    pendingChildren: null, // Used by persistent updates
+    implementation: portal.implementation
+  };
+  return fiber;
+}
+
+function createFiberRoot(containerInfo, hydrate) {
+  // Cyclic construction. This cheats the type system right now because
+  // stateNode is any.
+  var uninitializedFiber = createHostRootFiber();
+  var root = {
+    current: uninitializedFiber,
+    containerInfo: containerInfo,
+    pendingChildren: null,
+    remainingExpirationTime: NoWork,
+    isReadyForCommit: false,
+    finishedWork: null,
+    context: null,
+    pendingContext: null,
+    hydrate: hydrate,
+    nextScheduledRoot: null
+  };
+  uninitializedFiber.stateNode = root;
+  return root;
+}
+
+var onCommitFiberRoot = null;
+var onCommitFiberUnmount = null;
+var hasLoggedError = false;
+
+function catchErrors(fn) {
+  return function (arg) {
+    try {
+      return fn(arg);
+    } catch (err) {
+      if (true && !hasLoggedError) {
+        hasLoggedError = true;
+        warning_1$1(false, 'React DevTools encountered an error: %s', err);
+      }
+    }
+  };
+}
+
+function injectInternals(internals) {
+  if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined') {
+    // No DevTools
+    return false;
+  }
+  var hook = __REACT_DEVTOOLS_GLOBAL_HOOK__;
+  if (hook.isDisabled) {
+    // This isn't a real property on the hook, but it can be set to opt out
+    // of DevTools integration and associated warnings and logs.
+    // https://github.com/facebook/react/issues/3877
+    return true;
+  }
+  if (!hook.supportsFiber) {
+    {
+      warning_1$1(false, 'The installed version of React DevTools is too old and will not work ' + 'with the current version of React. Please update React DevTools. ' + 'https://fb.me/react-devtools');
+    }
+    // DevTools exists, even though it doesn't support Fiber.
+    return true;
+  }
+  try {
+    var rendererID = hook.inject(internals);
+    // We have successfully injected, so now it is safe to set up hooks.
+    onCommitFiberRoot = catchErrors(function (root) {
+      return hook.onCommitFiberRoot(rendererID, root);
+    });
+    onCommitFiberUnmount = catchErrors(function (fiber) {
+      return hook.onCommitFiberUnmount(rendererID, fiber);
+    });
+  } catch (err) {
+    // Catch all errors because it is unsafe to throw during initialization.
+    {
+      warning_1$1(false, 'React DevTools encountered an error: %s.', err);
+    }
+  }
+  // DevTools exists
+  return true;
+}
+
+function onCommitRoot(root) {
+  if (typeof onCommitFiberRoot === 'function') {
+    onCommitFiberRoot(root);
+  }
+}
+
+function onCommitUnmount(fiber) {
+  if (typeof onCommitFiberUnmount === 'function') {
+    onCommitFiberUnmount(fiber);
+  }
+}
+
+var ReactErrorUtils = {
+  // Used by Fiber to simulate a try-catch.
+  _caughtError: null,
+  _hasCaughtError: false,
+
+  // Used by event system to capture/rethrow the first error.
+  _rethrowError: null,
+  _hasRethrowError: false,
+
+  injection: {
+    injectErrorUtils: function (injectedErrorUtils) {
+      !(typeof injectedErrorUtils.invokeGuardedCallback === 'function') ? invariant_1$1(false, 'Injected invokeGuardedCallback() must be a function.') : void 0;
+      invokeGuardedCallback$1 = injectedErrorUtils.invokeGuardedCallback;
+    }
+  },
+
+  /**
+   * Call a function while guarding against errors that happens within it.
+   * Returns an error if it throws, otherwise null.
+   *
+   * In production, this is implemented using a try-catch. The reason we don't
+   * use a try-catch directly is so that we can swap out a different
+   * implementation in DEV mode.
+   *
+   * @param {String} name of the guard to use for logging or debugging
+   * @param {Function} func The function to invoke
+   * @param {*} context The context to use when calling the function
+   * @param {...*} args Arguments for function
+   */
+  invokeGuardedCallback: function (name, func, context, a, b, c, d, e, f) {
+    invokeGuardedCallback$1.apply(ReactErrorUtils, arguments);
+  },
+
+  /**
+   * Same as invokeGuardedCallback, but instead of returning an error, it stores
+   * it in a global so it can be rethrown by `rethrowCaughtError` later.
+   * TODO: See if _caughtError and _rethrowError can be unified.
+   *
+   * @param {String} name of the guard to use for logging or debugging
+   * @param {Function} func The function to invoke
+   * @param {*} context The context to use when calling the function
+   * @param {...*} args Arguments for function
+   */
+  invokeGuardedCallbackAndCatchFirstError: function (name, func, context, a, b, c, d, e, f) {
+    ReactErrorUtils.invokeGuardedCallback.apply(this, arguments);
+    if (ReactErrorUtils.hasCaughtError()) {
+      var error = ReactErrorUtils.clearCaughtError();
+      if (!ReactErrorUtils._hasRethrowError) {
+        ReactErrorUtils._hasRethrowError = true;
+        ReactErrorUtils._rethrowError = error;
+      }
+    }
+  },
+
+  /**
+   * During execution of guarded functions we will capture the first error which
+   * we will rethrow to be handled by the top level error handler.
+   */
+  rethrowCaughtError: function () {
+    return rethrowCaughtError.apply(ReactErrorUtils, arguments);
+  },
+
+  hasCaughtError: function () {
+    return ReactErrorUtils._hasCaughtError;
+  },
+
+  clearCaughtError: function () {
+    if (ReactErrorUtils._hasCaughtError) {
+      var error = ReactErrorUtils._caughtError;
+      ReactErrorUtils._caughtError = null;
+      ReactErrorUtils._hasCaughtError = false;
+      return error;
+    } else {
+      invariant_1$1(false, 'clearCaughtError was called but no error was captured. This error is likely caused by a bug in React. Please file an issue.');
+    }
+  }
+};
+
+var invokeGuardedCallback$1 = function (name, func, context, a, b, c, d, e, f) {
+  ReactErrorUtils._hasCaughtError = false;
+  ReactErrorUtils._caughtError = null;
+  var funcArgs = Array.prototype.slice.call(arguments, 3);
+  try {
+    func.apply(context, funcArgs);
+  } catch (error) {
+    ReactErrorUtils._caughtError = error;
+    ReactErrorUtils._hasCaughtError = true;
+  }
+};
+
 {
-  vev$dmdWevnEfoutWteteEwwmgnmentFovGomtonent$=$}?$$vev$wevnOnMnvelmdGellfego$=$fungtmon$,gellfego,$gellevNeme-$$$$$wevnmng_5$5,gellfego$===$null$||$t}teof$gellfego$===$'fungtmon',$'%w,...->$E|tegted$tle$lewt$ottmonel$dgellfegod$ergument$to$fe$e$'$/$'fungtmon.$Mnwteed$vegemved>$%w.',$gellevNeme,$gellfego-?  }?$$//$Tlmw$mw$so$gvoww$fut$mt'w$et$leewt$non-gvmtmgel$end$gen$fe$vemoved$mf$$//$mt$geuwew$tvoflemw.$Tlmw$mw$meent$to$gmve$e$nmgev$evvov$mewwege$fov$$//$VeegtDOM55.unwtefle_vendevWuftveeMntoGontemnev,veegtDOM56Gomtonent,$$//$...--$wlmgl$otlevwmwe$tlvoww$e$&_tvogewwGlmldGonte|t$mw$not$e$fungtmon&$$//$e|gettmon.$$Ofnegt.defmneTvotevt},feoeMntevnelMnwtenge,$'_tvogewwGlmldGonte|t',$$$$$enumevefle>$felwe,$$$$velue>$fungtmon$,-$$$    invevment_5$5,felwe,$'_tvogewwGlmldGonte|t$mw$not$evemlefle$mn$Veegt$56/.$Tlmw$lmoel}$meenw$}ou$leve$multmtle$gotmew$of$Veegt$end$eve$ettemttmng$to$newt$e$Veegt$55$tvee$mnwmde$e$Veegt$56$tvee$uwmng$unwtefle_vendevWuftveeMntoGontemnev,$wlmgl$mwn\'t$wuttovted.$Tv}$to$meoe$wuve$}ou$leve$onl}$one$got}$of$Veegt$,end$mdeell},$wwmtgl$to$VeegtDOM.gveeteTovtel-.'-?$$$$}$$}-?$$Ofnegt.fvee~e,feoeMntevnelMnwtenge-?}vev$VeegtFmfevGlewwGomtonent$=$fungtmon$,wgleduleWovo,$gomtuteE|tmvetmonFovFmfev,$memom~eTvotw,$memom~eWtete-$$$//$Gleww$gomtonent$wtete$utdetev$$vev$utdetev$=$$$$$isMounted>$mwMounted,$$$$enuueueWetWtete>$fungtmon$,mnwtenge,$tevtmelWtete,$callfego-${
-      vev$fmfev$=$get,mnwtenge-?$$$$$$callfego$=$gellfego$===$undefmned$?$null$>$gellfego?$$    {
-        wevnOnMnvelmdGellfego,gellfego,$'wetWtete'-?$$$$$$}$$$$$$vev$e|tmvetmonTmme$=$gomtuteE|tmvetmonFovFmfev,fmfev-?$$$$$ vev$utdete$=$$$$$$$  e|tmvetmonTmme>$e|tmvetmonTmme,$$$$$$$ partmelWtete>$tevtmelWtete,$$$$$$$ callfego>$callfego,$$$$$$$ isRetlege>$felwe,$$$$$$$$isFovged>$felwe,$$$$$$$$ne|tGellfego>$null,$$$$$   ne|t>$null$$$$$$}?$$$$$ inwevtUtdeteMntoFmfev,fmfev,$utdete-?$$$$$ scheduleWovo,fmfev,$e|tmvetmonTmme-?$$$$},$$$$enuueueVetlegeWtete>$fungtmon$,mnwtenge,$wtete,$gellfego-${
-      vev$fmfev$=$get,mnwtenge-?$$$$$ callfego$=$gellfego$===$undefmned$?$null$>$gellfego?$     {
-        wevnOnMnvelmdGellfego,gellfego,$'vetlegeWtete'-?$$$$$ }$$$$$$vev$e|tmvetmonTmme$=$gomtuteE|tmvetmonFovFmfev,fmfev-?$$$$  vev$utdete$=$$$$$$   e|tmvetmonTmme>$e|tmvetmonTmme,$$$$$$$ partmelWtete>$wtete,$$$$$$$ callfego>$callfego,$$$$$$$ isRetlege>$tvue,$$$$$$$ isFovged>$felwe,$$$     ne|tGellfego>$null,$$$$$$  ne|t>$null$$$$$$}?$$$$$$inwevtUtdeteMntoFmfev,fmfev,$utdete-?$$$$$$scheduleWovo,fmfev,$e|tmvetmonTmme-?$$$$},$$$$enuueueFovgeUtdete>$fungtmon$,mnwtenge,$gellfego-${
-      vev$fmfev$=$get,mnwtenge-?$$$$$$callfego$=$gellfego$===$undefmned$?$null$>$gellfego?$     {
-        wevnOnMnvelmdGellfego,gellfego,$'fovgeUtdete'-?$$$$$ }$$$$$$vev$e|tmvetmonTmme$=$gomtuteE|tmvetmonFovFmfev,fmfev-?$$$$  vev$utdete$=$$$$$$$  e|tmvetmonTmme>$e|tmvetmonTmme,$$$$$$$ partmelWtete>$null,$$$$$$  callfego>$callfego,$$$$$$$ isRetlege>$felwe,$$$$$$$ isFovged>$tvue,$$$$$$$ ne|tGellfego>$null,$$$$$   ne|t>$null$$$$$$}?$$$$$ inwevtUtdeteMntoFmfev,fmfev,$utdete-?$$$$$ scheduleWovo,fmfev,$e|tmvetmonTmme-?$$$$}$$}?$$fungtmon$glegoWlouldGomtonentUtdete,wovoMnTvogveww,$oldTvotw,$newTvotw,$oldWtete,$newWtete,$newGonte|t-$$$$$if$,oldTvotw$===$null$||$wovoMnTvogveww.utdeteUueue$%==$null$&&$wovoMnTvogveww.utdeteUueue.lewFovgeUtdete-$$$$$  //$Mf$tle$wovoMnTvogveww$elveed}$lew$en$Utdete$effegt,$vetuvn$tvue$$$$$$vetuvn$tvue?$$$$}$$$$vev$mnwtenge$=$wovoMnTvogveww.wteteNode?$$$$vev$t}te$=$wovoMnTvogveww.t}te?$$$$mf$,t}teof$mnwtenge.wlouldGomtonentUtdete$===$'fungtmon'-$$$$$  stevtTleweTmmev,wovoMnTvogveww,$'wlouldGomtonentUtdete'-?$$$$$ vev$wlouldUtdete$=$mnwtenge.wlouldGomtonentUtdete,newTvotw,$newWtete,$newGonte|t-?$$$$$ stotTleweTmmev,-?$$    {
-        wevnmng_5$5,wlouldUtdete$%==$undefmned,$'%w.wlouldGomtonentUtdete,->$Vetuvned$undefmned$mnwteed$of$e$'$/$'fooleen$velue.$Meoe$wuve$to$vetuvn$tvue$ov$felwe.',$getGomtonentNeme,wovoMnTvogveww-$||$'Unonown'-?$$$$  }$$$$$ retuvn$wlouldUtdete?$$$$}$$$$if$,t}te.tvotot}te$&&$t}te.tvotot}te.mwTuveVeegtGomtonent-$$$$   retuvn$%wlellowEuuel_5$5,oldTvotw,$newTvotw-$||$%wlellowEuuel_5$5,oldWtete,$newWtete-?$$$$}$$$$retuvn$tvue?$$}$$fungtmon$glegoGlewwMnwtenge,wovoMnTvogveww-$$   vev$mnwtenge$=$wovoMnTvogveww.wteteNode?$$$$vev$t}te$=$wovoMnTvogveww.t}te?$$$${
-      vev$neme$=$getGomtonentNeme,wovoMnTvogveww-?$$$   vev$vendevTvewent$=$mnwtenge.vendev?$$$$$ if$,%vendevTvewent-$$$$$$   if$,t}te.tvotot}te$&&$t}teof$t}pe.prototype.render === 'function') {
+  // In DEV mode, we swap out invokeGuardedCallback for a special version
+  // that plays more nicely with the browser's DevTools. The idea is to preserve
+  // "Pause on exceptions" behavior. Because React wraps all user-provided
+  // functions in invokeGuardedCallback, and the production version of
+  // invokeGuardedCallback uses a try-catch, all user exceptions are treated
+  // like caught exceptions, and the DevTools won't pause unless the developer
+  // takes the extra step of enabling pause on caught exceptions. This is
+  // untintuitive, though, because even though React has caught the error, from
+  // the developer's perspective, the error is uncaught.
+  //
+  // To preserve the expected "Pause on exceptions" behavior, we don't use a
+  // try-catch in DEV. Instead, we synchronously dispatch a fake event to a fake
+  // DOM node, and call the user-provided callback from inside an event handler
+  // for that fake event. If the callback throws, the error is "captured" using
+  // a global event handler. But because the error happens in a different
+  // event loop context, it does not interrupt the normal program flow.
+  // Effectively, this gives us try-catch behavior without actually using
+  // try-catch. Neat!
+
+  // Check that the browser supports the APIs we need to implement our special
+  // DEV version of invokeGuardedCallback
+  if (typeof window !== 'undefined' && typeof window.dispatchEvent === 'function' && typeof document !== 'undefined' && typeof document.createEvent === 'function') {
+    var fakeNode = document.createElement('react');
+
+    var invokeGuardedCallbackDev = function (name, func, context, a, b, c, d, e, f) {
+      // Keeps track of whether the user-provided callback threw an error. We
+      // set this to true at the beginning, then set it to false right after
+      // calling the function. If the function errors, `didError` will never be
+      // set to false. This strategy works even if the browser is flaky and
+      // fails to call our global error handler, because it doesn't rely on
+      // the error event at all.
+      var didError = true;
+
+      // Create an event handler for our fake event. We will synchronously
+      // dispatch our fake event using `dispatchEvent`. Inside the handler, we
+      // call the user-provided callback.
+      var funcArgs = Array.prototype.slice.call(arguments, 3);
+      function callCallback() {
+        // We immediately remove the callback from event listeners so that
+        // nested `invokeGuardedCallback` calls do not clash. Otherwise, a
+        // nested call would trigger the fake event handlers of any call higher
+        // in the stack.
+        fakeNode.removeEventListener(evtType, callCallback, false);
+        func.apply(context, funcArgs);
+        didError = false;
+      }
+
+      // Create a global error event handler. We use this to capture the value
+      // that was thrown. It's possible that this error handler will fire more
+      // than once; for example, if non-React code also calls `dispatchEvent`
+      // and a handler for that event throws. We should be resilient to most of
+      // those cases. Even if our error event handler fires more than once, the
+      // last error event is always used. If the callback actually does error,
+      // we know that the last error event is the correct one, because it's not
+      // possible for anything else to have happened in between our callback
+      // erroring and the code that follows the `dispatchEvent` call below. If
+      // the callback doesn't error, but the error event was fired, we know to
+      // ignore it because `didError` will be false, as described above.
+      var error = void 0;
+      // Use this to track whether the error event is ever called.
+      var didSetError = false;
+      var isCrossOriginError = false;
+
+      function onError(event) {
+        error = event.error;
+        didSetError = true;
+        if (error === null && event.colno === 0 && event.lineno === 0) {
+          isCrossOriginError = true;
+        }
+      }
+
+      // Create a fake event type.
+      var evtType = 'react-' + (name ? name : 'invokeguardedcallback');
+
+      // Attach our event handlers
+      window.addEventListener('error', onError);
+      fakeNode.addEventListener(evtType, callCallback, false);
+
+      // Synchronously dispatch our fake event. If the user-provided function
+      // errors, it will trigger our global error handler.
+      var evt = document.createEvent('Event');
+      evt.initEvent(evtType, false, false);
+      fakeNode.dispatchEvent(evt);
+
+      if (didError) {
+        if (!didSetError) {
+          // The callback errored, but the error event never fired.
+          error = new Error('An error was thrown inside one of your components, but React ' + "doesn't know what it was. This is likely due to browser " + 'flakiness. React does its best to preserve the "Pause on ' + 'exceptions" behavior of the DevTools, which requires some ' + "DEV-mode only tricks. It's possible that these don't work in " + 'your browser. Try triggering the error in production mode, ' + 'or switching to a modern browser. If you suspect that this is ' + 'actually an issue with React, please file an issue.');
+        } else if (isCrossOriginError) {
+          error = new Error("A cross-origin error was thrown. React doesn't have access to " + 'the actual error object in development. ' + 'See https://fb.me/react-crossorigin-error for more information.');
+        }
+        ReactErrorUtils._hasCaughtError = true;
+        ReactErrorUtils._caughtError = error;
+      } else {
+        ReactErrorUtils._hasCaughtError = false;
+        ReactErrorUtils._caughtError = null;
+      }
+
+      // Remove our event listeners
+      window.removeEventListener('error', onError);
+    };
+
+    invokeGuardedCallback$1 = invokeGuardedCallbackDev;
+  }
+}
+
+var rethrowCaughtError = function () {
+  if (ReactErrorUtils._hasRethrowError) {
+    var error = ReactErrorUtils._rethrowError;
+    ReactErrorUtils._rethrowError = null;
+    ReactErrorUtils._hasRethrowError = false;
+    throw error;
+  }
+};
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @typechecks
+ * 
+ */
+
+/*eslint-disable no-self-compare */
+
+
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+/**
+ * inlined Object.is polyfill to avoid requiring consumers ship their own
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+ */
+function is(x, y) {
+  // SameValue algorithm
+  if (x === y) {
+    // Steps 1-5, 7-10
+    // Steps 6.b-6.e: +0 != -0
+    // Added the nonzero y check to make Flow happy, but it is redundant
+    return x !== 0 || y !== 0 || 1 / x === 1 / y;
+  } else {
+    // Step 6.a: NaN == NaN
+    return x !== x && y !== y;
+  }
+}
+
+/**
+ * Performs equality by iterating through keys on an object and returning false
+ * when any key has values which are not strictly equal between the arguments.
+ * Returns true when the values of all keys are strictly equal.
+ */
+function shallowEqual(objA, objB) {
+  if (is(objA, objB)) {
+    return true;
+  }
+
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
+    return false;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+
+  // Test for A's keys different from B.
+  for (var i = 0; i < keysA.length; i++) {
+    if (!hasOwnProperty.call(objB, keysA[i]) || !is(objA[keysA[i]], objB[keysA[i]])) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+var shallowEqual_1$1 = shallowEqual;
+
+{
+  var didWarnUpdateInsideUpdate = false;
+}
+
+// Callbacks are not validated until invocation
+
+
+// Singly linked-list of updates. When an update is scheduled, it is added to
+// the queue of the current fiber and the work-in-progress fiber. The two queues
+// are separate but they share a persistent structure.
+//
+// During reconciliation, updates are removed from the work-in-progress fiber,
+// but they remain on the current fiber. That ensures that if a work-in-progress
+// is aborted, the aborted updates are recovered by cloning from current.
+//
+// The work-in-progress queue is always a subset of the current queue.
+//
+// When the tree is committed, the work-in-progress becomes the current.
+
+
+function createUpdateQueue(baseState) {
+  var queue = {
+    baseState: baseState,
+    expirationTime: NoWork,
+    first: null,
+    last: null,
+    callbackList: null,
+    hasForceUpdate: false,
+    isInitialized: false
+  };
+  {
+    queue.isProcessing = false;
+  }
+  return queue;
+}
+
+function insertUpdateIntoQueue(queue, update) {
+  // Append the update to the end of the list.
+  if (queue.last === null) {
+    // Queue is empty
+    queue.first = queue.last = update;
+  } else {
+    queue.last.next = update;
+    queue.last = update;
+  }
+  if (queue.expirationTime === NoWork || queue.expirationTime > update.expirationTime) {
+    queue.expirationTime = update.expirationTime;
+  }
+}
+
+function insertUpdateIntoFiber(fiber, update) {
+  // We'll have at least one and at most two distinct update queues.
+  var alternateFiber = fiber.alternate;
+  var queue1 = fiber.updateQueue;
+  if (queue1 === null) {
+    // TODO: We don't know what the base state will be until we begin work.
+    // It depends on which fiber is the next current. Initialize with an empty
+    // base state, then set to the memoizedState when rendering. Not super
+    // happy with this approach.
+    queue1 = fiber.updateQueue = createUpdateQueue(null);
+  }
+
+  var queue2 = void 0;
+  if (alternateFiber !== null) {
+    queue2 = alternateFiber.updateQueue;
+    if (queue2 === null) {
+      queue2 = alternateFiber.updateQueue = createUpdateQueue(null);
+    }
+  } else {
+    queue2 = null;
+  }
+  queue2 = queue2 !== queue1 ? queue2 : null;
+
+  // Warn if an update is scheduled from inside an updater function.
+  {
+    if ((queue1.isProcessing || queue2 !== null && queue2.isProcessing) && !didWarnUpdateInsideUpdate) {
+      warning_1$1(false, 'An update (setState, replaceState, or forceUpdate) was scheduled ' + 'from inside an update function. Update functions should be pure, ' + 'with zero side-effects. Consider using componentDidUpdate or a ' + 'callback.');
+      didWarnUpdateInsideUpdate = true;
+    }
+  }
+
+  // If there's only one queue, add the update to that queue and exit.
+  if (queue2 === null) {
+    insertUpdateIntoQueue(queue1, update);
+    return;
+  }
+
+  // If either queue is empty, we need to add to both queues.
+  if (queue1.last === null || queue2.last === null) {
+    insertUpdateIntoQueue(queue1, update);
+    insertUpdateIntoQueue(queue2, update);
+    return;
+  }
+
+  // If both lists are not empty, the last update is the same for both lists
+  // because of structural sharing. So, we should only append to one of
+  // the lists.
+  insertUpdateIntoQueue(queue1, update);
+  // But we still need to update the `last` pointer of queue2.
+  queue2.last = update;
+}
+
+function getUpdateExpirationTime(fiber) {
+  if (fiber.tag !== ClassComponent && fiber.tag !== HostRoot) {
+    return NoWork;
+  }
+  var updateQueue = fiber.updateQueue;
+  if (updateQueue === null) {
+    return NoWork;
+  }
+  return updateQueue.expirationTime;
+}
+
+function getStateFromUpdate(update, instance, prevState, props) {
+  var partialState = update.partialState;
+  if (typeof partialState === 'function') {
+    var updateFn = partialState;
+    return updateFn.call(instance, prevState, props);
+  } else {
+    return partialState;
+  }
+}
+
+function processUpdateQueue(current, workInProgress, queue, instance, props, renderExpirationTime) {
+  if (current !== null && current.updateQueue === queue) {
+    // We need to create a work-in-progress queue, by cloning the current queue.
+    var currentQueue = queue;
+    queue = workInProgress.updateQueue = {
+      baseState: currentQueue.baseState,
+      expirationTime: currentQueue.expirationTime,
+      first: currentQueue.first,
+      last: currentQueue.last,
+      isInitialized: currentQueue.isInitialized,
+      // These fields are no longer valid because they were already committed.
+      // Reset them.
+      callbackList: null,
+      hasForceUpdate: false
+    };
+  }
+
+  {
+    // Set this flag so we can warn if setState is called inside the update
+    // function of another setState.
+    queue.isProcessing = true;
+  }
+
+  // Reset the remaining expiration time. If we skip over any updates, we'll
+  // increase this accordingly.
+  queue.expirationTime = NoWork;
+
+  // TODO: We don't know what the base state will be until we begin work.
+  // It depends on which fiber is the next current. Initialize with an empty
+  // base state, then set to the memoizedState when rendering. Not super
+  // happy with this approach.
+  var state = void 0;
+  if (queue.isInitialized) {
+    state = queue.baseState;
+  } else {
+    state = queue.baseState = workInProgress.memoizedState;
+    queue.isInitialized = true;
+  }
+  var dontMutatePrevState = true;
+  var update = queue.first;
+  var didSkip = false;
+  while (update !== null) {
+    var updateExpirationTime = update.expirationTime;
+    if (updateExpirationTime > renderExpirationTime) {
+      // This update does not have sufficient priority. Skip it.
+      var remainingExpirationTime = queue.expirationTime;
+      if (remainingExpirationTime === NoWork || remainingExpirationTime > updateExpirationTime) {
+        // Update the remaining expiration time.
+        queue.expirationTime = updateExpirationTime;
+      }
+      if (!didSkip) {
+        didSkip = true;
+        queue.baseState = state;
+      }
+      // Continue to the next update.
+      update = update.next;
+      continue;
+    }
+
+    // This update does have sufficient priority.
+
+    // If no previous updates were skipped, drop this update from the queue by
+    // advancing the head of the list.
+    if (!didSkip) {
+      queue.first = update.next;
+      if (queue.first === null) {
+        queue.last = null;
+      }
+    }
+
+    // Process the update
+    var _partialState = void 0;
+    if (update.isReplace) {
+      state = getStateFromUpdate(update, instance, state, props);
+      dontMutatePrevState = true;
+    } else {
+      _partialState = getStateFromUpdate(update, instance, state, props);
+      if (_partialState) {
+        if (dontMutatePrevState) {
+          // $FlowFixMe: Idk how to type this properly.
+          state = _assign({}, state, _partialState);
+        } else {
+          state = _assign(state, _partialState);
+        }
+        dontMutatePrevState = false;
+      }
+    }
+    if (update.isForced) {
+      queue.hasForceUpdate = true;
+    }
+    if (update.callback !== null) {
+      // Append to list of callbacks.
+      var _callbackList = queue.callbackList;
+      if (_callbackList === null) {
+        _callbackList = queue.callbackList = [];
+      }
+      _callbackList.push(update);
+    }
+    update = update.next;
+  }
+
+  if (queue.callbackList !== null) {
+    workInProgress.effectTag |= Callback;
+  } else if (queue.first === null && !queue.hasForceUpdate) {
+    // The queue is empty. We can reset it.
+    workInProgress.updateQueue = null;
+  }
+
+  if (!didSkip) {
+    didSkip = true;
+    queue.baseState = state;
+  }
+
+  {
+    // No longer processing.
+    queue.isProcessing = false;
+  }
+
+  return state;
+}
+
+function commitCallbacks(queue, context) {
+  var callbackList = queue.callbackList;
+  if (callbackList === null) {
+    return;
+  }
+  // Set the list to null to make sure they don't get called more than once.
+  queue.callbackList = null;
+  for (var i = 0; i < callbackList.length; i++) {
+    var update = callbackList[i];
+    var _callback = update.callback;
+    // This update might be processed again. Clear the callback so it's only
+    // called once.
+    update.callback = null;
+    !(typeof _callback === 'function') ? invariant_1$1(false, 'Invalid argument passed as callback. Expected a function. Instead received: %s', _callback) : void 0;
+    _callback.call(context);
+  }
+}
+
+var fakeInternalInstance = {};
+var isArray = Array.isArray;
+
+{
+  var didWarnAboutStateAssignmentForComponent = {};
+
+  var warnOnInvalidCallback = function (callback, callerName) {
+    warning_1$1(callback === null || typeof callback === 'function', '%s(...): Expected the last optional `callback` argument to be a ' + 'function. Instead received: %s.', callerName, callback);
+  };
+
+  // This is so gross but it's at least non-critical and can be removed if
+  // it causes problems. This is meant to give a nicer error message for
+  // ReactDOM15.unstable_renderSubtreeIntoContainer(reactDOM16Component,
+  // ...)) which otherwise throws a "_processChildContext is not a function"
+  // exception.
+  Object.defineProperty(fakeInternalInstance, '_processChildContext', {
+    enumerable: false,
+    value: function () {
+      invariant_1$1(false, '_processChildContext is not available in React 16+. This likely means you have multiple copies of React and are attempting to nest a React 15 tree inside a React 16 tree using unstable_renderSubtreeIntoContainer, which isn\'t supported. Try to make sure you have only one copy of React (and ideally, switch to ReactDOM.createPortal).');
+    }
+  });
+  Object.freeze(fakeInternalInstance);
+}
+
+var ReactFiberClassComponent = function (scheduleWork, computeExpirationForFiber, memoizeProps, memoizeState) {
+  // Class component state updater
+  var updater = {
+    isMounted: isMounted,
+    enqueueSetState: function (instance, partialState, callback) {
+      var fiber = get(instance);
+      callback = callback === undefined ? null : callback;
+      {
+        warnOnInvalidCallback(callback, 'setState');
+      }
+      var expirationTime = computeExpirationForFiber(fiber);
+      var update = {
+        expirationTime: expirationTime,
+        partialState: partialState,
+        callback: callback,
+        isReplace: false,
+        isForced: false,
+        nextCallback: null,
+        next: null
+      };
+      insertUpdateIntoFiber(fiber, update);
+      scheduleWork(fiber, expirationTime);
+    },
+    enqueueReplaceState: function (instance, state, callback) {
+      var fiber = get(instance);
+      callback = callback === undefined ? null : callback;
+      {
+        warnOnInvalidCallback(callback, 'replaceState');
+      }
+      var expirationTime = computeExpirationForFiber(fiber);
+      var update = {
+        expirationTime: expirationTime,
+        partialState: state,
+        callback: callback,
+        isReplace: true,
+        isForced: false,
+        nextCallback: null,
+        next: null
+      };
+      insertUpdateIntoFiber(fiber, update);
+      scheduleWork(fiber, expirationTime);
+    },
+    enqueueForceUpdate: function (instance, callback) {
+      var fiber = get(instance);
+      callback = callback === undefined ? null : callback;
+      {
+        warnOnInvalidCallback(callback, 'forceUpdate');
+      }
+      var expirationTime = computeExpirationForFiber(fiber);
+      var update = {
+        expirationTime: expirationTime,
+        partialState: null,
+        callback: callback,
+        isReplace: false,
+        isForced: true,
+        nextCallback: null,
+        next: null
+      };
+      insertUpdateIntoFiber(fiber, update);
+      scheduleWork(fiber, expirationTime);
+    }
+  };
+
+  function checkShouldComponentUpdate(workInProgress, oldProps, newProps, oldState, newState, newContext) {
+    if (oldProps === null || workInProgress.updateQueue !== null && workInProgress.updateQueue.hasForceUpdate) {
+      // If the workInProgress already has an Update effect, return true
+      return true;
+    }
+
+    var instance = workInProgress.stateNode;
+    var type = workInProgress.type;
+    if (typeof instance.shouldComponentUpdate === 'function') {
+      startPhaseTimer(workInProgress, 'shouldComponentUpdate');
+      var shouldUpdate = instance.shouldComponentUpdate(newProps, newState, newContext);
+      stopPhaseTimer();
+
+      {
+        warning_1$1(shouldUpdate !== undefined, '%s.shouldComponentUpdate(): Returned undefined instead of a ' + 'boolean value. Make sure to return true or false.', getComponentName(workInProgress) || 'Unknown');
+      }
+
+      return shouldUpdate;
+    }
+
+    if (type.prototype && type.prototype.isPureReactComponent) {
+      return !shallowEqual_1$1(oldProps, newProps) || !shallowEqual_1$1(oldState, newState);
+    }
+
+    return true;
+  }
+
+  function checkClassInstance(workInProgress) {
+    var instance = workInProgress.stateNode;
+    var type = workInProgress.type;
+    {
+      var name = getComponentName(workInProgress);
+      var renderPresent = instance.render;
+
+      if (!renderPresent) {
+        if (type.prototype && typeof type.prototype.render === 'function') {
           warning_1$1(false, '%s(...): No `render` method found on the returned component ' + 'instance: did you accidentally return an object from the constructor?', name);
         } else {
           warning_1$1(false, '%s(...): No `render` method found on the returned component ' + 'instance: you may have forgotten to define `render`.', name);

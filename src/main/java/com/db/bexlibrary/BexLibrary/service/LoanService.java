@@ -1,10 +1,15 @@
 package com.db.bexlibrary.BexLibrary.service;
 
 import com.db.bexlibrary.BexLibrary.entities.*;
+import com.db.bexlibrary.BexLibrary.pojos.LoanPOJO;
+import com.db.bexlibrary.BexLibrary.pojos.SimpleLoan;
 import com.db.bexlibrary.BexLibrary.repositories.BookRepo;
 import com.db.bexlibrary.BexLibrary.repositories.LoanRepo;
 import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
 import io.jsonwebtoken.Jwts;
+
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,19 +39,28 @@ public class LoanService {
     @Autowired
     UserRepo userRepo;
 
+
     public String getUsername(String token) {
         token = token.substring(PREFIX_SIZE);
         String username = null;
         username = Jwts.parser().setSigningKey(SECRET)
-                    .parseClaimsJws(token.replace(TOKEN_PREFIX, ""))
-                    .getBody().getSubject();
+                .parseClaimsJws(token.replace(TOKEN_PREFIX, ""))
+                .getBody().getSubject();
 
 
         return username;
     }
 
-    public List<Loan> getAllLoans() {
-        return loanRepo.findAll();
+    public List<SimpleLoan> getAllLoans() {
+
+        List<Loan> loans = loanRepo.findLoansByIsReturnedIsFalse();
+        List<SimpleLoan> simpleLoans = new ArrayList<>();
+        for (Loan l : loans
+                ) {
+            SimpleLoan simpleLoan = new SimpleLoan(l.getId(), l.getLoanBook().getId(), l.getLoanBook().getTitle(), l.getReturnDate(), l.getLoanUser().getEmail());
+            simpleLoans.add(simpleLoan);
+        }
+        return simpleLoans;
     }
 
     public Loan borrowMethod(LoanPOJO input, HttpServletRequest request) {
@@ -84,4 +98,11 @@ public class LoanService {
 
         return loan;
     }
+
+    public void returnBookMethod(Long bookId, Long loanId) {
+
+        loanRepo.updateLoan(loanId);
+        bookRepo.updateReturnedBook(bookId);
+    }
+
 }

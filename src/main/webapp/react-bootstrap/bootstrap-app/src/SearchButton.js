@@ -5,6 +5,7 @@ import TextField from 'material-ui/TextField';
 import { Modal, Button } from 'react-bootstrap';
 import CathegoryBookParser from './CathegoryBookParser';
 
+
 class SearchButton extends Component {
 
     constructor(props) {
@@ -45,7 +46,7 @@ class SearchButton extends Component {
     }
 
     functionse(value){
-        fetch(`http://localhost:8080/search/${value}`, {
+        fetch(`http://localhost:8090/search/${value}`, {
             method: 'get'
 
         }).then(response => response.json())
@@ -54,9 +55,7 @@ class SearchButton extends Component {
                 if(this.state.books && this.state.books.length > 0) {
                     this.handleShow();
                 }
-                // console.log(books);
 
-                // console.log(this.state.books);
             });
     }
 

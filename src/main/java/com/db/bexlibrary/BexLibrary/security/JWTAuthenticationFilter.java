@@ -5,8 +5,7 @@ import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.HEADER_STR
 import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.SECRET;
 import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.TOKEN_PREFIX;
 
-
-import com.db.bexlibrary.BexLibrary.entities.AppUserDTO;
+import com.db.bexlibrary.BexLibrary.pojos.AppUserDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

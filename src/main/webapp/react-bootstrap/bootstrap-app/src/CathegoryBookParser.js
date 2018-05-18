@@ -6,6 +6,7 @@ class CathegoryBookParser extends Component {
 
     render() {
         const booksections = this.props.booklist;
+
         const perChunk = 3 // items per chunk            
         let bookgroup = booksections.reduce((resultArray, item, index) => {
             const chunkIndex = Math.floor(index / perChunk)
