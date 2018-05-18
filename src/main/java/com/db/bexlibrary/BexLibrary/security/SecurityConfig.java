@@ -46,6 +46,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     configuration.setAllowCredentials(true);
     configuration
         .setAllowedHeaders(Arrays.asList("authorization", "user", "content-type", " x-auth-token"));
+    configuration.addExposedHeader("Set-Cookie");
     final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
     source.registerCorsConfiguration("/**", configuration);
     return source;

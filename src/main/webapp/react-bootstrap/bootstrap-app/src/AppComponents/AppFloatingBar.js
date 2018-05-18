@@ -4,7 +4,6 @@ import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import SearchButton from './SearchButton';
-import Login from './Login';
 import DrawMenu from './DrawMenu';
 
 const customStyles = {
@@ -25,7 +24,7 @@ class AppFloatingBar extends Component {
                         <div className="app__searchAndLogin">  
                             
                             <SearchButton/>
-                            <Login/>
+                            {/* <Login/> */}
                         </div>
                     }
                     iconElementLeft={<DrawMenu items={this.props.items}/>}
