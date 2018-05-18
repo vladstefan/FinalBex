@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import RatingStars from './RatingStars';
 import RentBook from './RentButton';
-import { Card,  CardMedia} from 'material-ui/Card';
-import FavoritesButton from './FavoritesButton';
 
 class Book extends Component {
 
@@ -10,19 +8,7 @@ class Book extends Component {
         return (
             <div className="card">
                 <div >
-                    <Card 
-                        style={{
-                            width: "200px",
-                            height: "300px"
-                        }}
-                    >
-                        <CardMedia
-                            // overlay={<FavoritesButton/>}
-                            overlayContainerStyle={{height:"40px"}}
-                        >
-                            <img className="book__img" src={"https://s3.eu-central-1.amazonaws.com/com.db.bexlib.images/id" + this.props.id + ".jpeg"} alt="ceva" />
-                        </CardMedia>
-                    </Card>
+                    <img className="book__img" src={"https://s3.eu-central-1.amazonaws.com/com.db.bexlib.images/id" + this.props.id + ".jpeg"} alt="ceva" />
                 </div>
                 <div>
                     <div>

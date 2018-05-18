@@ -23,6 +23,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
@@ -42,9 +44,9 @@ public class LoanController {
 
   @RequestMapping(value = "/loans", method = {RequestMethod.POST, RequestMethod.OPTIONS})
   @ResponseBody
-  public ResponseEntity<?> borrowMethod(@RequestBody LoanPOJO input) {
+  public ResponseEntity<?> borrowMethod(@RequestBody LoanPOJO input, HttpServletRequest request) {
 
-    return new ResponseEntity<Loan>(loanService.borrowMethod(input), HttpStatus.OK);
+    return new ResponseEntity<Loan>(loanService.borrowMethod(input,request), HttpStatus.OK);
   }
 
   @GetMapping("/admin")
