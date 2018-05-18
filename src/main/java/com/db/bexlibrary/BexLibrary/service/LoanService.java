@@ -92,8 +92,6 @@ public class LoanService {
             loanRepo.save(loan);
             bookRepo.updateBook(book.getId());
 //          mailSender.sendMail("bexlibrary18@gmail.com", user.getEmail(), "Confirmation email", confirmMail);
-
-
         }
 
         return loan;
