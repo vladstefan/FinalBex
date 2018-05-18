@@ -60,6 +60,12 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
         .addHeader("Set-Cookie", HEADER_STRING + "=" + TOKEN_PREFIX + token + "; Path=/; HttpOnly");
     response.addHeader("User", ((User) authResult.getPrincipal()).getAuthorities().toString());
 
+    String  role = ((User) authResult.getPrincipal()).getAuthorities().toString();
+    role = role.substring(6);
+    role = role.substring(0,role.length()-1);
+    role = "{\"role\":\""+ role.toLowerCase() + "\"}";
+    response.getWriter().write(role);
+
 
   }
 
