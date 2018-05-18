@@ -17,6 +17,7 @@ export default class Dashboard extends Component {
 
         this.state = {
             showCheckboxes:false,
+            loans: []
 
         };
     }
@@ -26,10 +27,22 @@ export default class Dashboard extends Component {
             selected: selectedRows,
         });
     };
+    componentDidMount() {
+
+        fetch('http://localhost:8090/admin')
+            .then(response => response.json())
+            .then(loans => {
+                this.setState({ loans })
+
+            });
+
+    }
+
+
 
     render() {
 
-        const rows=  this.props.loans.map(post => <TableRowDash id={post.id} returnDate={post.returnDate} />)
+        const rows=  this.state.loans.map(post => <TableRowDash id={post.loanId} returnDate={post.returnDate} />)
 
         return (
             <MuiThemeProvider>
