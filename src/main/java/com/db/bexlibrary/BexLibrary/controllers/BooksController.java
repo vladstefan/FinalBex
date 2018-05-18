@@ -49,10 +49,4 @@ public class BooksController {
     return new ResponseEntity<List<Book>>(bookService.findBooksByCathegory(category),
         HttpStatus.OK);
   }
-
-//  @GetMapping(value = "/favorites")
-//  public ResponseEntity<?> findFavoriteBook (){
-//    return new ResponseEntity<List<Book>>(bookService.findFavoriteBooks(),HttpStatus.OK);
-//  }
-
 }
