@@ -37,7 +37,7 @@ class Login extends Component {
                 if (response.status == 200) {
                     // if(this.state.role == "user"){
                         this.setState({ isLoggedIn: true });
-                        this.props.router.push('/home');
+                        this.props.router.push('/dashboard');
                     // } else if(this.state.role == "admin"){
                     //     this.props.router.push('/dashboard');
                     // }
