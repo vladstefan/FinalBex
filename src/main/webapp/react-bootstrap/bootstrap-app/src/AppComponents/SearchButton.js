@@ -3,7 +3,8 @@ import FlatButton from 'material-ui/FlatButton';
 import Search from 'material-ui/svg-icons/action/search';
 import TextField from 'material-ui/TextField';
 import { Modal, Button } from 'react-bootstrap';
-import CathegoryBookParser from './CathegoryBookParser';
+import CathegoryBookParser from '../BookComponents/CathegoryBookParser';
+
 
 
 class SearchButton extends Component {
