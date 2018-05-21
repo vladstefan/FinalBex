@@ -18,6 +18,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.PREFIX_SIZE;
 import static com.db.bexlibrary.BexLibrary.security.SecurityConstants.SECRET;
@@ -97,10 +98,29 @@ public class LoanService {
         return loan;
     }
 
+    public static long getDateDiff(long timeUpdate, long timeNow, TimeUnit timeUnit) {
+        long diffInMillies = Math.abs(timeNow - timeUpdate);
+        return timeUnit.convert(diffInMillies, TimeUnit.MILLISECONDS);
+    }
+
     public void returnBookMethod(Long bookId, Long loanId) {
 
         loanRepo.updateLoan(loanId);
         bookRepo.updateReturnedBook(bookId);
+        int numberOfPenalties = 0;
+        Loan loan = loanRepo.findById(loanId);
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        if (loan.getReturnDate().before(timestamp)) {
+            long diffInDays = getDateDiff(loan.getReturnDate().getTime(), timestamp.getTime(), TimeUnit.DAYS);
+            if (diffInDays < 5) {
+                numberOfPenalties = 1;
+            } else if (diffInDays < 11) {
+                numberOfPenalties = 2;
+            } else {
+                numberOfPenalties = 3;
+            }
+            userRepo.updateUserPen(numberOfPenalties, loan.getLoanUser().getEmail());
+        }
     }
 
 }

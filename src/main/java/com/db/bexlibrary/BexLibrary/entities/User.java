@@ -19,6 +19,13 @@ import org.springframework.lang.Nullable;
 @Data
 @Entity
 public class User {
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)

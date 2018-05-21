@@ -14,10 +14,16 @@ public class LoginController {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
-    @GetMapping(value = "/permissions")
-    private void tryPermissions(){
+    @GetMapping(value = "/userPermissions")
+    private void tryUserPermissions(){
         logger.info("Test endpoint for user permissions");
     }
+
+    @GetMapping(value = "/adminPermissions")
+    private void tryAdminPermissions(){
+        logger.info("Test endpoint for admin permissions");
+    }
+
 
     @GetMapping(value = "/signout")
     private void signout(HttpServletResponse response){

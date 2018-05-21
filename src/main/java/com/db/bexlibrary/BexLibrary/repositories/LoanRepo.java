@@ -17,4 +17,7 @@ public interface LoanRepo extends JpaRepository<Loan, Integer> {
   @Modifying
   @Transactional
   void updateLoan(Long id);
+
+  Loan findById(Long id);
+
 }

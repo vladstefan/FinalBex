@@ -12,6 +12,14 @@ import lombok.Data;
 @Data
 public class Loan extends BaseEntity {
 
+  public Timestamp getReturnDate() {
+    return returnDate;
+  }
+
+  public void setReturnDate(Timestamp returnDate) {
+    this.returnDate = returnDate;
+  }
+
   @NotNull
   private Timestamp borrowDate;
 
@@ -20,6 +28,14 @@ public class Loan extends BaseEntity {
 
   @NotNull
   private boolean isReturned = false;
+
+  public User getLoanUser() {
+    return loanUser;
+  }
+
+  public void setLoanUser(User loanUser) {
+    this.loanUser = loanUser;
+  }
 
   @JsonManagedReference
   @ManyToOne
