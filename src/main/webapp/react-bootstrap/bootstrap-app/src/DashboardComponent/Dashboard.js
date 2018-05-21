@@ -9,60 +9,57 @@ import {
     TableRow,
     TableRowColumn,
 } from 'material-ui/Table';
+import TableRowDash from "./TableRowDash";
 
 export default class Dashboard extends Component {
-    state = {
-        selected: [1],
-        showCheckboxes:false
-    };
+    constructor(props){
+        super(props);
 
-    isSelected = (index) => {
-        return this.state.selected.indexOf(index) !== -1;
-    };
+        this.state = {
+            showCheckboxes:false,
+            loans: []
+
+        };
+    }
 
     handleRowSelection = (selectedRows) => {
         this.setState({
             selected: selectedRows,
         });
     };
+    componentDidMount() {
+
+        fetch('http://localhost:8090/admin')
+            .then(response => response.json())
+            .then(loans => {
+                this.setState({ loans })
+
+            });
+
+    }
+
+
 
     render() {
+
+        const rows=  this.state.loans.map(post => <TableRowDash id={post.loanId} returnDate={post.returnDate} />)
+
         return (
             <MuiThemeProvider>
-            <Table onRowSelection={this.handleRowSelection}>
-                <TableHeader adjustForCheckbox={this.state.showCheckboxes} displaySelectAll={this.state.showCheckboxes}>
+                <Table onRowSelection={this.handleRowSelection}>
+                    <TableHeader adjustForCheckbox={this.state.showCheckboxes} displaySelectAll={this.state.showCheckboxes}>
 
-                    <TableRow >
-                        <TableHeaderColumn>ID</TableHeaderColumn>
-                        <TableHeaderColumn>Name</TableHeaderColumn>
-                        <TableHeaderColumn>Status</TableHeaderColumn>
-                        <TableHeaderColumn></TableHeaderColumn>
-                    </TableRow>
-                </TableHeader>
-                <TableBody displayRowCheckbox={this.state.showCheckboxes}>
-                    <TableRow selected={this.isSelected(0)}>
-                        <TableRowColumn>1</TableRowColumn>
-                        <TableRowColumn>John Smith</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                        <FlatButton label="RETURN"/>
-                    </TableRow>
-                    <TableRow selected={this.isSelected(1)}>
-                        <TableRowColumn>2</TableRowColumn>
-                        <TableRowColumn>Randal White</TableRowColumn>
-                        <TableRowColumn>Unemployed</TableRowColumn>
-                    </TableRow>
-                    <TableRow selected={this.isSelected(2)}>
-                        <TableRowColumn>3</TableRowColumn>
-                        <TableRowColumn>Stephanie Sanders</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow selected={this.isSelected(3)}>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                </TableBody>
-            </Table>
+                        <TableRow>
+                            <TableHeaderColumn>ID</TableHeaderColumn>
+                            <TableHeaderColumn>Return Date</TableHeaderColumn>
+                            <TableHeaderColumn>Status</TableHeaderColumn>
+
+                        </TableRow>
+                    </TableHeader>
+                    <TableBody displayRowCheckbox={this.state.showCheckboxes}>
+                        {rows}
+                    </TableBody>
+                </Table>
             </MuiThemeProvider>
         );
     }
