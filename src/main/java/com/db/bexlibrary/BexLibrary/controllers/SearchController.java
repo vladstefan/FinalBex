@@ -23,7 +23,7 @@ public class SearchController {
   private BookService bookService;
 
   @GetMapping(value = "/search/{title}")
-  private ResponseEntity<?> searchMethod(@PathVariable String title) {
+  public ResponseEntity<?> searchMethod(@PathVariable String title) {
     return new ResponseEntity<List<Book>>(bookService.searchMethod(title), HttpStatus.OK);
   }
 

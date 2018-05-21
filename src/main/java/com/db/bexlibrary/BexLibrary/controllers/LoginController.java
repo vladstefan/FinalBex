@@ -15,18 +15,18 @@ public class LoginController {
     private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
     @GetMapping(value = "/userPermissions")
-    private void tryUserPermissions(){
+    public void tryUserPermissions(){
         logger.info("Test endpoint for user permissions");
     }
 
     @GetMapping(value = "/adminPermissions")
-    private void tryAdminPermissions(){
+    public void tryAdminPermissions(){
         logger.info("Test endpoint for admin permissions");
     }
 
 
     @GetMapping(value = "/signout")
-    private void signout(HttpServletResponse response){
+    public void signout(HttpServletResponse response){
         response.addHeader("Set-Cookie", "Logging out");
     }
 
