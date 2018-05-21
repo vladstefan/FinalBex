@@ -112,14 +112,16 @@ public class LoanService {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         if (loan.getReturnDate().before(timestamp)) {
             long diffInDays = getDateDiff(loan.getReturnDate().getTime(), timestamp.getTime(), TimeUnit.DAYS);
-            if (diffInDays < 5) {
-                numberOfPenalties = 1;
-            } else if (diffInDays < 11) {
-                numberOfPenalties = 2;
-            } else {
-                numberOfPenalties = 3;
+            if (diffInDays > 0) {
+                if (diffInDays < 5) {
+                    numberOfPenalties = 1;
+                } else if (diffInDays < 11) {
+                    numberOfPenalties = 2;
+                } else {
+                    numberOfPenalties = 3;
+                }
+                userRepo.updateUserPen(numberOfPenalties, loan.getLoanUser().getEmail());
             }
-            userRepo.updateUserPen(numberOfPenalties, loan.getLoanUser().getEmail());
         }
     }
 
