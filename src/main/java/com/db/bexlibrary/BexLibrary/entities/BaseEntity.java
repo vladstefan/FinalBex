@@ -11,8 +11,8 @@ public class BaseEntity {
 
   @Id
   @GeneratedValue(
-      strategy= GenerationType.AUTO,
-      generator="native"
+      strategy = GenerationType.AUTO,
+      generator = "native"
   )
   @GenericGenerator(
       name = "native",

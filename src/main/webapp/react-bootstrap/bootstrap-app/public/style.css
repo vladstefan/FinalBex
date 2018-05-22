@@ -3,10 +3,6 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-.book__img{
-    width:200px;
-    height: 300px;
-}
 
 @keyframes slideInFromLeft {
     0% {
@@ -21,8 +17,8 @@ html{
     display: flex;
     justify-content: space-around;
 }
-
-  .header {
+  
+  .header {  
     /* This section calls the slideInFromLeft animation we defined above */
     display: flex;
     align-self: flex-start;
@@ -49,36 +45,31 @@ html{
     margin: 300px 0 0  50px;
 }
 
-.up__section{
+.book__img{
+
+    height:300px;
+    width:200px;
+}
+
+.opacity__pic{
     height:900px;
     background-image: url('img/fundal.jpg');
 }
+
 
 .popularBooks__section{
     width: 1280px;
     display:flex;
     justify-content: center;
+    opacity: unset;
 
 }
 
-.search {
-    width: 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('img/Search.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    cursor: pointer;
-}
-
-.search:focus {
-    width: 100%;
+.favorites{
+    display:flex;
+    justify-content: flex-start;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
 }
 
 .card{
@@ -98,18 +89,18 @@ html{
 
 .main__modal{
     width: 90vw;
-    height: 90vh;
+    height: 90vh; 
     position: absolute;
     top: 45vh;
     left: 45vw;
     transform: translate(-45vw, -45vh);
-
-}
+    
+} 
 
 .modal__rent{
     position: absolute;
     top: 50%;
-    width: 50%;
+    width: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -128,7 +119,7 @@ html{
 .book__titleModal{
     color: rgb(151, 2, 27);
     font-weight: bold;
-
+    
 }
 
 .book__div{
@@ -149,7 +140,7 @@ html{
 }
 
 .modal-content {
-
+    
     background: rgba(53, 27, 27, 0.8);
 }
 
@@ -160,6 +151,17 @@ html{
 }
 
 .app__login{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -100px 100px 0 -150px;
+
+}
+
+.login__credentials{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
