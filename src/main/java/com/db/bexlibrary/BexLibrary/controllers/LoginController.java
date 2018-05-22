@@ -12,17 +12,17 @@ import javax.servlet.http.HttpServletResponse;
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
 public class LoginController {
 
-    private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
+  private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
-    @GetMapping(value = "/permissions")
-    private void tryPermissions(){
-        logger.info("Test endpoint for user permissions");
-    }
+  @GetMapping(value = "/permissions")
+  private void tryPermissions(){
+    logger.info("Test endpoint for user permissions");
+  }
 
-    @GetMapping(value = "/signout")
-    private void signout(HttpServletResponse response){
-        response.addHeader("Set-Cookie", "Logging out");
-    }
+  @GetMapping(value = "/signout")
+  private void signout(HttpServletResponse response){
+    response.addHeader("Set-Cookie", "Logging out");
+  }
 
 
 }
