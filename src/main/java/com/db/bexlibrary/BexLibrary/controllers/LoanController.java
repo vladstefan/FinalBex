@@ -11,7 +11,9 @@ import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
 import com.db.bexlibrary.BexLibrary.service.LoanService;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,33 +32,38 @@ import javax.servlet.http.HttpServletRequest;
 @CrossOrigin(origins = "http://localhost:3000", allowedHeaders = "*")
 public class LoanController {
 
-  @Autowired
-  LoanRepo loanRepo;
-  @Autowired
-  BookRepo bookRepo;
-  @Autowired
-  UserRepo userRepo;
-  @Autowired
-  MailSender mailSender;
-  @Autowired
-  private LoanService loanService;
+    @Autowired
+    LoanRepo loanRepo;
+    @Autowired
+    BookRepo bookRepo;
+    @Autowired
+    UserRepo userRepo;
+    @Autowired
+    MailSender mailSender;
+    @Autowired
+    private LoanService loanService;
 
 
-  @RequestMapping(value = "/loans", method = {RequestMethod.POST, RequestMethod.OPTIONS})
-  @ResponseBody
-  public ResponseEntity<?> borrowMethod(@RequestBody LoanPOJO input, HttpServletRequest request) {
+    @RequestMapping(value = "/loans", method = {RequestMethod.POST, RequestMethod.OPTIONS})
+    @ResponseBody
+    public ResponseEntity<?> borrowMethod(@RequestBody LoanPOJO input, HttpServletRequest request) {
 
-    return new ResponseEntity<Loan>(loanService.borrowMethod(input,request), HttpStatus.OK);
-  }
+        Loan loan = loanService.borrowMethod(input, request);
+        if (loan != null) {
+            return new ResponseEntity<Loan>(loan, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.UNAVAILABLE_FOR_LEGAL_REASONS);
+        }
+    }
 
-  @GetMapping("/admin")
-  public ResponseEntity<?> getAllLoans() {
-    return new ResponseEntity<List<SimpleLoan>>(loanService.getAllLoans(), HttpStatus.OK);
-  }
+    @GetMapping("/admin")
+    public ResponseEntity<?> getAllLoans() {
+        return new ResponseEntity<List<SimpleLoan>>(loanService.getAllLoans(), HttpStatus.OK);
+    }
 
-  @RequestMapping(value = "/return", method = RequestMethod.POST)
-  public  ResponseEntity<?> returnBook(@RequestBody ReturnedBookPOJO pojo){
-    loanService.returnBookMethod(pojo.getBookId(),pojo.getLoanId());
-    return new ResponseEntity<>(HttpStatus.OK);
-  }
+    @RequestMapping(value = "/return", method = RequestMethod.POST)
+    public ResponseEntity<?> returnBook(@RequestBody ReturnedBookPOJO pojo) {
+        loanService.returnBookMethod(pojo.getBookId(), pojo.getLoanId());
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }

@@ -20,9 +20,18 @@ public interface UserRepo extends JpaRepository<User, String> {
 
 
 
-  @Query("update User user  set user.noPen=?1 where l.id=?2")
+  @Query("update User user  set user.noPen=user.noPen + ?1 where user.email=?2")
   @Modifying
   @Transactional
   void updateUserPen(int numberOfPenalties,String email);
+
+
+
+  @Query("update User user  set user.isBlacklist=1 where user.email=?1")
+  @Modifying
+  @Transactional
+  void addtoBlacklist(String email);
+
+
 
 }

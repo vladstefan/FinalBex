@@ -27,7 +27,7 @@ public class LoginController {
 
     @GetMapping(value = "/signout")
     public void signout(HttpServletResponse response){
-        response.addHeader("Set-Cookie", "Logging out");
+        response.addHeader("Set-Cookie", "Authorization=Logging out");
     }
 
 

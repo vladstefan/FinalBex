@@ -81,7 +81,9 @@ public class LoanService {
         User user = userRepo.findUserByEmail(username);
         loan.setLoanUser(user);
         loan.setReturned(false);
-
+        if (user.isBlacklist() == true) {
+            return null;
+        }
 
         if (book.getNoAvailableCopies() > 0) {
             String date = retDate.toString().substring(0, 10);
@@ -119,6 +121,9 @@ public class LoanService {
                     numberOfPenalties = 2;
                 } else {
                     numberOfPenalties = 3;
+                }
+                if (loan.getLoanUser().getNoPen() + numberOfPenalties >= 5) {
+                   userRepo.addtoBlacklist(loan.getLoanUser().getEmail());
                 }
                 userRepo.updateUserPen(numberOfPenalties, loan.getLoanUser().getEmail());
             }

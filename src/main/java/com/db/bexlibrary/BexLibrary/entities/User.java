@@ -27,6 +27,22 @@ public class User {
     this.email = email;
   }
 
+  public int getNoPen() {
+    return noPen;
+  }
+
+  public boolean isBlacklist() {
+    return isBlacklist;
+  }
+
+  public void setBlacklist(boolean blacklist) {
+    isBlacklist = blacklist;
+  }
+
+  public void setNoPen(int noPen) {
+    this.noPen = noPen;
+  }
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "email")
