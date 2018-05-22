@@ -44,11 +44,9 @@ public class BooksController {
         HttpStatus.OK);
   }
 
-  @GetMapping(value = "booksbycategory/{category}")
+  @GetMapping(value = "/booksbycategory/{category}")
   public ResponseEntity<?> findByCategory(@PathVariable String category) {
     return new ResponseEntity<List<Book>>(bookService.findBooksByCathegory(category),
         HttpStatus.OK);
   }
-
-
 }

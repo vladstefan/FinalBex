@@ -29,6 +29,9 @@ public interface BookRepo extends JpaRepository<Book, Long> {
 
   List<Book> findBooksByCategory(Category category);
 
+  @Query("update Book b set b.noAvailableCopies=b.noAvailableCopies+1 where b.id=?1")
+  @Modifying
+  void updateReturnedBook(Long id);
 }
 
 

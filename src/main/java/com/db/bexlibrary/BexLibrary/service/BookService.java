@@ -6,6 +6,7 @@ import com.db.bexlibrary.BexLibrary.entities.Category;
 import com.db.bexlibrary.BexLibrary.repositories.AuthorRepo;
 import com.db.bexlibrary.BexLibrary.repositories.BookRepo;
 import com.db.bexlibrary.BexLibrary.repositories.CategoryRepo;
+import com.db.bexlibrary.BexLibrary.repositories.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,11 +20,12 @@ public class BookService {
 
     @Autowired
     private BookRepo bookRepo;
-
     @Autowired
     private AuthorRepo authorRepo;
     @Autowired
     private CategoryRepo categoryRepo;
+    @Autowired
+    private UserRepo userRepo;
 
     public Set<Book> findBooksByAuthorName(String name){
 
@@ -50,4 +52,15 @@ public class BookService {
 
     }
 
+    public List<Book> searchMethod(String title){
+        List<Book> results = new ArrayList<>();
+
+        results.addAll(findBooksByAuthorName(title));
+        results.addAll(bookRepo.findBooksByTitleContaining(title));
+        return results;
+    }
+
+    public List<Book> findFavoriteBooks(String email){
+       return  userRepo.findFavorites(email);
+    }
 }
