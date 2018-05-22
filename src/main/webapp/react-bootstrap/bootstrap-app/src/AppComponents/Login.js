@@ -40,7 +40,7 @@ class Login extends Component {
                 if (statusLogin == 200) {
                     if(this.state.role.role == "user"){
                         this.setState({ isLoggedIn: true });
-                        this.props.router.push('/home');
+                        this.props.router.push('/');
                     } else if(this.state.role.role == "admin"){
                         this.props.router.push('/dashboard');
                     }
