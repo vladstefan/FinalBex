@@ -23,24 +23,27 @@ class Login extends Component {
 
     submitChanges() {
         const account = { name: this.state.name, password: this.state.password }
+        let statusLogin;
         fetch('http://localhost:8090/login', {
             method: 'post',
             credentials: 'include',
             body: JSON.stringify(account)
         })
-            // .then(response => response.json())
-            // .then(role => {
-            //     this.setState({ role });
-            // })
-            .then(response => {
-                
-                if (response.status == 200) {
-                    // if(this.state.role == "user"){
+        .then(response =>  {
+            statusLogin = response.status;
+            return response.json();
+        })
+        .then(role => {
+          this.setState({ role })
+        })
+        .then(() => {
+                if (statusLogin == 200) {
+                    if(this.state.role.role == "user"){
                         this.setState({ isLoggedIn: true });
-                        this.props.router.push('/home');
-                    // } else if(this.state.role == "admin"){
-                    //     this.props.router.push('/dashboard');
-                    // }
+                        this.props.router.push('/');
+                    } else if(this.state.role.role == "admin"){
+                        this.props.router.push('/dashboard');
+                    }
 
                 }
             });
